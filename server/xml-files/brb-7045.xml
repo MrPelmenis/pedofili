@@ -1,0 +1,767 @@
+<document>
+  <file>./pdf-files/brb-7045.pdf</file>
+  <title>Basics of Solid Lipid Nanoparticles Formulation</title>
+  <date>Unknown</date>
+  <authors>
+    <author>Maryam Hasan</author>
+    <author>Zadeh Navroodi</author>
+    <author>Mort Marashi</author>
+    <author>Faezeh Talaei</author>
+    <author>Mohaddeseh Argha</author>
+    <author>Soheila Mokari</author>
+    <author>Javad Shokri</author>
+    <author>Shalen Kumar</author>
+    <author>Tooba Gholikhani</author>
+  </authors>
+  <abstract>Lipid nanoparticles (LNPs) have captured significant attention in the past few years and are widely used. Nanostructured lipid carriers (NLCs) and solid lipid nanoparticles (SLNs) are two lipid-based NPs with potential applications in research, drug delivery, cosmetics, and other fields. By modifying the size range, they can be used through different routes. Physically stable and targeted SLNs with good release profiles have been designed to overcome the limitations of emulsions and liposomes. NLCs are modified SLNs that enhance loading capacity and stability. Regardless of the preparation method, an initial emulsion is essential. The quality of the initial emulsion can affect the desired size range. This study highlights the critical features required to prepare the initial emulsion wisely and rationally.</abstract>
+  <methods>
+    <method>Formulation Preparation Strategy: Emulsifiers reduce surface tension due to the amphiphilic structure created by the alignment of hydrophobic and hydrophilic groups. 31 Concerning the chosen lipid, the emulsifiers are selected since they need to be quantitatively and qualitatively compatible. 32 To form an emulsion, it is essential to determine the hydrophilic-lipophilic balance (HLB) of the components which relate to their solubility. 33 The required HLB (rHLB) of the desired dispersion can be estimated through calculations based on the HLB of the lipid and the emulsifier(s). The stability of the overall formulation depends on choosing the best chemical emulsifier and estimating the rHLB 34 . The emulsifier mixture must be adjusted to the lipid chains' tail interface to produce oil droplets in an aqueous phase. 35 Emulsifiers can either be adsorbed on the surface directly or loaded into the lipoidal matrix itself. 36 Concerning the hydrophilic group and its nature (i.e., HLB), emulsifiers are selected. 37 As the name suggests, emulsifiers with a non-ionic nature lack an ionic charge. Polysorbates and Poloxamers dissolve in the aqueous phase of emulsions, and the long polyoxypropylene chains allow aggregation and stabilization. [38][39][40] Sorbitan fatty acid esters dissolve within melted lipids and are adsorbed onto the surface more effectively. 41 To avoid particle aggregation, an electrostatic charge is needed to improve the zeta potential; as a result, the use of ionic emulsifiers is essential. 42,43 The negative and positive ions in the molecules of the ionic emulsifiers enhance the absorption of particles in the gastrointestinal system. 44 Another subclass of emulsifiers frequently employed is phospholipids. [45][46][47] The fatty chain makeup of phospholipids derived from soy or egg phosphatidylcholine varies. Due to its amphiphilic qualities, it can also be used to increase permeability for topical administration, reduce particle size, and enhance emulsion stability, 48 as illustrated in Table 2.</method>
+    <method>Solid Lipid Nanoparticle Preparation Methods: The method used to solubilize the lipid determines whether the production of SLN should use organic solvents or not. 49 The suitable method is chosen based on the drug's characteristics such as thermal stability, molecular weight, and solubility. 50,51 SLN preparation methods are summarized in Box 1.
+
+Among the techniques mentioned above, high-speed homogenization (HPH) is the most practical one (both cold and hot HPH). After melting lipids, the drug is solubilized or distributed 52 . In hot HPH, the mixture of the lipid phase with an aqueous surfactant solution is homogenized by high shear homogenization. 53 To obtain the desired particle size, HPH is used to process the preemulsion. 54 Then, the lipid in the obtained nanoemulsion is recrystallized following a temperature decrease, and the SLN is formed. 55 There are noticeable differences between the cold and hot HPH method 56 . The first is that the mixture of the drug in the melted lipid (solubilized or dispersed) is primarily cooled 57 . To produce a microparticle suspension, the solid lipid mixture is grounded by a mortar in a solution containing aqueous surfactant. 58 HPH is used at room temperature or below to deliver a homogeneous microparticle suspension, forming NPs. 59 In cases when the drug exhibits sensitivity to heat, cold HPH can be used. 60 Distributing drugs in the aqueous phase leads to the production of supercooled melt products during homogenization, and hot HPH results in crystallization. To overcome these drawbacks, cold HPH was developed. 61 Due to its simplicity in scaling up, hot HPH has become the most frequently used technique, while methods such as high shear homogenization or sonication are less commonly utilized. 62 High shear homogenization or sonication is used to facilitate the emulsification of the aqueous and lipid phases, heated to the same temperature. However, the final dispersion contains microparticles and NPs, which presents a notable disadvantage. The phases are heated above the lipid melting point in the microemulsion technique 63 and subsequently diluted with cooled water to form a nanoemulsion that will be cooled to form the SLN. While stirring, the critical factor is a temperature control that maintains the lipid in its melted condition. 64 Another technique for SLN synthesis is the double emulsion technique. In this method, a primary waterin-oil (w/o) emulsion is prepared using a high-shear homogenizer by solubilizing the drug in an aqueous phase, which is then added to the lipid phase containing a suitable emulsifier. The resulting mixture is further dispersed in a continuous aqueous surfactant phase to form the final water-in-oil-in-water (w/o/w) emulsion. 65 As a result of the drug being charged in the internal aqueous phase, hydrophilic drugs, proteins, and peptides could avoid chemical and enzymatic degradation. 66 The solvent evaporation technique is used for insoluble lipid drugs. An o/w emulsion is formed from the dispersion of a not water-miscible but lipid-soluble organic solvent in a solution consisting of an aqueous surfactant. 67,68 The The solvent displacement method was originally used to obtain polymeric NPs. 69 Using this method, the lipid phase is dissolved in a water-miscible organic solvent and then added to the aqueous surfactant solution by injection. 70 After diffusion or distillation, the solvent is completely removed, leading to the formation of LNPs by precipitation.
+
+In the emulsification-diffusion process, the lipid is initially dissolved in a semi-polar organic solvent before being mixed with an aqueous surfactant solution to produce a w/o emulsion. 71 Adding an excessive amount of water to the emulsion results in solvent diffusing out from the droplets, leading to SLN formation. 72 In another method known as phase inversion, the first step is to melt all components and stir using a magnet, then cool down to lower temperatures. 73 Three temperature cycles are employed to achieve the inversion process specified by a temperature range. Then, cold water is added to create an irreversible shock, which leads to the development of stable NPs. 74 In recent years, a novel approach has been developed in which SLN is obtained by controlled coacervation, initiated from fatty acid alkaline salts. 75 Tests Used for Quality and Structure Characterization of Solid Lipid Nanoparticles As a drug delivery system, the physicochemical characterization of SLNs is essential for assessing their safety and stability. The most crucial factors investigated in nearly every SLN production-based study include lipid matrix polymorphism behavior, crystallization, and the colloidal stability of SLNs (Table 3). 6 The most commonly used methods are presented in Box 1.</method>
+  </methods>
+  <full_text>In recent decades, different carrier systems have been developed for drug delivery to modify the release profiles and improve formation effectiveness for improved outcomes. 1 These novel drug delivery systems have not only facilitated the successful targeting of numerous new pharmaceuticals but have also allowed for the better delivery of existing drugs. 2 Most commonly used drugs exhibit poor biopharmaceutical properties, including rapid metabolism, low solubility, low permeability, rapid elimination, reduced safety, and poor tolerability, making drug delivery a long-term challenging obstacle. 3 The development of a wide range of tailored drug delivery systems using nanoparticles (NPs) is altering the scientific landscape for disease treatment. 4,5 The desired drug is adsorbed, dissolved, attached, encapsulated, or entrapped into or onto a nano-matrix. 6,7 NPs, nanospheres, or nanocapsules can be constructed based on the method of preparation and the different release characteristics and properties to achieve better drug delivery or encapsulation. Colloidal particles known as NPs range in size from 10 to 1000 nm. 8 To reduce toxicity and optimize drug delivery, synthetic or natural polymers are used in their preparation 9 . Recently, they have been considered a promising substitute for liposomes. 10 The ability of NPs to permeate various anatomical barriers and maintain their stability within the target size range is crucial for their successful application in drug administration. 4 However, the widespread clinical application of NPs faces limitations due to the high cost of safe polymers. 11 Lipid nanoparticles (LNPs), due to the availability of biocompatible and non-toxic lipid ingredients, can solve these limitations. LNPs can be categorized into two groups: solid lipid nanoparticles (SLNs) and nanostructured lipid carriers (NLCs). 12 These LNPs have a spherical morphology and an average size range of 40 to 1000 nm. They consist of a solidphase lipid as the dispersion phase and a surfactant as the emulsifier. 13 At room temperature and body temperature, SLNs' dispersed phase remains solid. Glyceride mixtures, extremely purified triglycerides, or even waxes may be utilized. The second generation of SLNs, known as NLCs, modifies the potential drawbacks of SLNs. NLCs enhance stability and capacity loading during storage. 14 Unlike SLNs, the lipidic phase in NLCs comprises both liquid and solid lipids. SLNs and NLCs are advantageous for parenteral, gene transfer, and other medication administrations due to their extensive properties. [15][16][17] These formulations were created to improve treatment effectiveness while reducing the adverse effects of the potent medications. Several techniques are frequently employed for the preparation of SLNs, including high-pressure homogenization (hot and cold homogenization), evaporation or diffusion, solvent emulsification, ultrasonication or high-speed homogenization, supercritical fluid extraction of emulsions (SFEE), and spray drying [18][19][20][21] . Regardless of the preparation method, an initial emulsion is needed. The better the initial emulsion, the more easily the desired size range could be achieved. However, cumulative decades of research on NLP preparation methods have paved the way for researchers. In this review, we strived to analyze numerous articles to categorize the formulating approach.
+
+The chemical and physical characteristics of nanomaterials can be altered by size reduction, distinguishing them from their bulk and molecular counterparts. LNP formulations consist of two phases: approximately 0.1-30 (% w/w) of lipids dispersed in an aqueous phase. To improve stability, a combination of surfactants at concentrations ranging from 0.5% to 5% is added. 22 For SLNs, the lipid phase consists solely of solid lipids, while in NLCs, the lipid phase comprises both liquid and solid lipids. 23 "Lipid" is a general term that encompasses triglycerides, steroids, fatty acids, partial glycerides, and waxes. 24 Lipid compounds derived from animal or vegetable sources are biocompatible, safe, and biodegradable. 25 Different classes of emulsifiers, varying in molecular weight and charge, are used to stabilize lipid dispersions. 26 According to the literature, using multiple emulsifiers more efficiently prevents particle agglomeration. 27 Table 1 lists the lipids that are most frequently utilized. The selection of surfactant or surfactant mixtures at suitable concentrations, considering the route of administration, is crucial for parenteral administrations and helps to maintain SLN stability. Since surfactant changes the surface characteristics of SLN, it has a substantial impact on SLN's quality. 28,29 Proper selection of lipids and surfactants will impact physicochemical properties, particle size, long-term stability during storage, release behavior, and drug loading. 30
+
+Emulsifiers reduce surface tension due to the amphiphilic structure created by the alignment of hydrophobic and hydrophilic groups. 31 Concerning the chosen lipid, the emulsifiers are selected since they need to be quantitatively and qualitatively compatible. 32 To form an emulsion, it is essential to determine the hydrophilic-lipophilic balance (HLB) of the components which relate to their solubility. 33 The required HLB (rHLB) of the desired dispersion can be estimated through calculations based on the HLB of the lipid and the emulsifier(s). The stability of the overall formulation depends on choosing the best chemical emulsifier and estimating the rHLB 34 . The emulsifier mixture must be adjusted to the lipid chains' tail interface to produce oil droplets in an aqueous phase. 35 Emulsifiers can either be adsorbed on the surface directly or loaded into the lipoidal matrix itself. 36 Concerning the hydrophilic group and its nature (i.e., HLB), emulsifiers are selected. 37 As the name suggests, emulsifiers with a non-ionic nature lack an ionic charge. Polysorbates and Poloxamers dissolve in the aqueous phase of emulsions, and the long polyoxypropylene chains allow aggregation and stabilization. [38][39][40] Sorbitan fatty acid esters dissolve within melted lipids and are adsorbed onto the surface more effectively. 41 To avoid particle aggregation, an electrostatic charge is needed to improve the zeta potential; as a result, the use of ionic emulsifiers is essential. 42,43 The negative and positive ions in the molecules of the ionic emulsifiers enhance the absorption of particles in the gastrointestinal system. 44 Another subclass of emulsifiers frequently employed is phospholipids. [45][46][47] The fatty chain makeup of phospholipids derived from soy or egg phosphatidylcholine varies. Due to its amphiphilic qualities, it can also be used to increase permeability for topical administration, reduce particle size, and enhance emulsion stability, 48 as illustrated in Table 2.
+
+The method used to solubilize the lipid determines whether the production of SLN should use organic solvents or not. 49 The suitable method is chosen based on the drug's characteristics such as thermal stability, molecular weight, and solubility. 50,51 SLN preparation methods are summarized in Box 1.
+
+Among the techniques mentioned above, high-speed homogenization (HPH) is the most practical one (both cold and hot HPH). After melting lipids, the drug is solubilized or distributed 52 . In hot HPH, the mixture of the lipid phase with an aqueous surfactant solution is homogenized by high shear homogenization. 53 To obtain the desired particle size, HPH is used to process the preemulsion. 54 Then, the lipid in the obtained nanoemulsion is recrystallized following a temperature decrease, and the SLN is formed. 55 There are noticeable differences between the cold and hot HPH method 56 . The first is that the mixture of the drug in the melted lipid (solubilized or dispersed) is primarily cooled 57 . To produce a microparticle suspension, the solid lipid mixture is grounded by a mortar in a solution containing aqueous surfactant. 58 HPH is used at room temperature or below to deliver a homogeneous microparticle suspension, forming NPs. 59 In cases when the drug exhibits sensitivity to heat, cold HPH can be used. 60 Distributing drugs in the aqueous phase leads to the production of supercooled melt products during homogenization, and hot HPH results in crystallization. To overcome these drawbacks, cold HPH was developed. 61 Due to its simplicity in scaling up, hot HPH has become the most frequently used technique, while methods such as high shear homogenization or sonication are less commonly utilized. 62 High shear homogenization or sonication is used to facilitate the emulsification of the aqueous and lipid phases, heated to the same temperature. However, the final dispersion contains microparticles and NPs, which presents a notable disadvantage. The phases are heated above the lipid melting point in the microemulsion technique 63 and subsequently diluted with cooled water to form a nanoemulsion that will be cooled to form the SLN. While stirring, the critical factor is a temperature control that maintains the lipid in its melted condition. 64 Another technique for SLN synthesis is the double emulsion technique. In this method, a primary waterin-oil (w/o) emulsion is prepared using a high-shear homogenizer by solubilizing the drug in an aqueous phase, which is then added to the lipid phase containing a suitable emulsifier. The resulting mixture is further dispersed in a continuous aqueous surfactant phase to form the final water-in-oil-in-water (w/o/w) emulsion. 65 As a result of the drug being charged in the internal aqueous phase, hydrophilic drugs, proteins, and peptides could avoid chemical and enzymatic degradation. 66 The solvent evaporation technique is used for insoluble lipid drugs. An o/w emulsion is formed from the dispersion of a not water-miscible but lipid-soluble organic solvent in a solution consisting of an aqueous surfactant. 67,68 The The solvent displacement method was originally used to obtain polymeric NPs. 69 Using this method, the lipid phase is dissolved in a water-miscible organic solvent and then added to the aqueous surfactant solution by injection. 70 After diffusion or distillation, the solvent is completely removed, leading to the formation of LNPs by precipitation.
+
+In the emulsification-diffusion process, the lipid is initially dissolved in a semi-polar organic solvent before being mixed with an aqueous surfactant solution to produce a w/o emulsion. 71 Adding an excessive amount of water to the emulsion results in solvent diffusing out from the droplets, leading to SLN formation. 72 In another method known as phase inversion, the first step is to melt all components and stir using a magnet, then cool down to lower temperatures. 73 Three temperature cycles are employed to achieve the inversion process specified by a temperature range. Then, cold water is added to create an irreversible shock, which leads to the development of stable NPs. 74 In recent years, a novel approach has been developed in which SLN is obtained by controlled coacervation, initiated from fatty acid alkaline salts. 75 Tests Used for Quality and Structure Characterization of Solid Lipid Nanoparticles As a drug delivery system, the physicochemical characterization of SLNs is essential for assessing their safety and stability. The most crucial factors investigated in nearly every SLN production-based study include lipid matrix polymorphism behavior, crystallization, and the colloidal stability of SLNs (Table 3). 6 The most commonly used methods are presented in Box 1.
+
+SLNs are complex systems with distinct benefits and drawbacks compared to other colloidal carriers. The issues of drug expulsion and stability in SLNs necessitated the development of NLCs. SLNs and NLCs have exhibited different structural forms depending on their lipid composition and the incorporated drugs. The highly unordered lipid matrix of NLCs enhances drug encapsulation, stability, and release profile. These structures and other lipid NPs can be synthesized both in laboratory settings and on a large scale. Further studies are needed to comprehend the dynamics of LNPs in both in vivo and in vitro phases. Physically and chemically, SLNs provide a safe solid lipid-based delivery system suitable for transporting proteins and medicines with low water solubility. Investigating these characteristics is important as they significantly affect the biopharmaceutical behavior of SLNs. Although knowledge in this field has advanced considerably, it is still crucial to evaluate drug interactions with SLNs to predict their in vitro pharmacological profile. Ultimately, for SLNs to be recognized as a new generation of drug carriers, comprehensive structural studies are required.
+
+Note. SLN: Solid lipid nanoparticle.</full_text>
+  <references>
+    <reference>
+      <title>Solid lipid nanoparticles and nanostructured lipid carriers: structure, preparation and application</title>
+      <authors>
+        <author>N Naseri</author>
+        <author>H Valizadeh</author>
+        <author>P Zakeri-Milani</author>
+      </authors>
+      <date>2015</date>
+    </reference>
+    <reference>
+      <title>The impact of variables on particle size of solid lipid nanoparticles and nanostructured lipid carriers; a comparative literature review</title>
+      <authors>
+        <author>Azhar Shekoufeh Bahari</author>
+        <author>L Hamishehkar</author>
+        <author>H</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles as efficient drug and gene delivery systems: recent breakthroughs</title>
+      <authors>
+        <author>Ezzati Nazhad Dolatabadi</author>
+        <author>J Valizadeh</author>
+        <author>H Hamishehkar</author>
+        <author>H</author>
+      </authors>
+      <date>2015</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles as attractive drug vehicles: composition, properties and therapeutic strategies</title>
+      <authors>
+        <author>M Geszke-Moritz</author>
+        <author>M Moritz</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>An overview on oral drug delivery via nano-based formulations</title>
+      <authors>
+        <author>R Mohammadzadeh</author>
+        <author>Y Javadzadeh</author>
+      </authors>
+      <date>2018</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles: production, characterization and applications</title>
+      <authors>
+        <author>W Mehnert</author>
+        <author>K Mäder</author>
+      </authors>
+      <date>2012</date>
+    </reference>
+    <reference>
+      <title>Therapeutic nanostructures for dermal and transdermal drug delivery</title>
+      <authors>
+        <author>Y Javadzadeh</author>
+        <author>Azhar Shekoufeh Bahari</author>
+        <author>L</author>
+      </authors>
+      <date>2017</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles (SLN) for controlled drug delivery -a review of the state of the art</title>
+      <authors>
+        <author>R Müller</author>
+        <author>K Mäder</author>
+        <author>S Gohla</author>
+      </authors>
+      <date>2000</date>
+    </reference>
+    <reference>
+      <title>The production and characteristics of solid lipid nanoparticles (SLNs)</title>
+      <authors>
+        <author>D Hou</author>
+        <author>C Xie</author>
+        <author>K Huang</author>
+        <author>C Zhu</author>
+      </authors>
+      <date>2003</date>
+    </reference>
+    <reference>
+      <title>Naringenin-loaded solid lipid nanoparticles: preparation, controlled delivery, cellular uptake, and pulmonary pharmacokinetics</title>
+      <authors>
+        <author>P Ji</author>
+        <author>T Yu</author>
+        <author>Y Liu</author>
+        <author>J Jiang</author>
+        <author>J Xu</author>
+        <author>Y Zhao</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles for oral drug delivery: chitosan coating improves stability, controlled delivery, mucoadhesion and cellular uptake</title>
+      <authors>
+        <author>Y Luo</author>
+        <author>Z Teng</author>
+        <author>Y Li</author>
+        <author>Q Wang</author>
+      </authors>
+      <date>2015</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles co-loaded with simazine and atrazine: preparation, characterization, and evaluation of herbicidal activity</title>
+      <authors>
+        <author>J De Oliveira</author>
+        <author>E Campos</author>
+        <author>Gonçalves Da Silva</author>
+        <author>C Pasquoto</author>
+        <author>T Lima</author>
+        <author>R Fraceto</author>
+        <author>L</author>
+      </authors>
+      <date>2015</date>
+    </reference>
+    <reference>
+      <title>ApoE-modified solid lipid nanoparticles: a feasible strategy to cross the blood-brain barrier</title>
+      <authors>
+        <author>R Dal Magro</author>
+        <author>F Ornaghi</author>
+        <author>I Cambianica</author>
+        <author>S Beretta</author>
+        <author>F Re</author>
+        <author>C Musicanti</author>
+      </authors>
+      <date>2017</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles as nucleic acid delivery system: properties and molecular mechanisms</title>
+      <authors>
+        <author>M De Jesus</author>
+        <author>I Zuhorn</author>
+      </authors>
+      <date>2015</date>
+    </reference>
+    <reference>
+      <title>Rifabutin-loaded solid lipid nanoparticles for inhaled antitubercular therapy: physicochemical and in vitro studies</title>
+      <authors>
+        <author>D Gaspar</author>
+        <author>V Faria</author>
+        <author>L Gonçalves</author>
+        <author>P Taboada</author>
+        <author>C Remuñán-López</author>
+        <author>A Almeida</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Preparation, characterization and in vitro activities evaluation of solid lipid nanoparticles based on PEG-40 stearate for antifungal drugs vaginal delivery</title>
+      <authors>
+        <author>R Cassano</author>
+        <author>T Ferrarelli</author>
+        <author>M Mauro</author>
+        <author>P Cavalcanti</author>
+        <author>N Picci</author>
+        <author>S Trombino</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Enhanced brain targeting efficacy of olanzapine through solid lipid nanoparticles</title>
+      <authors>
+        <author>J Natarajan</author>
+        <author>M Baskaran</author>
+        <author>L Humtsoe</author>
+        <author>R Vadivelan</author>
+        <author>Justin</author>
+      </authors>
+      <date>2017</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles and nanostructured lipid carriers: a review emphasizing on particle structure and drug release</title>
+      <authors>
+        <author>A Gordillo-Galeano</author>
+        <author>Mora-Huertas Ce</author>
+      </authors>
+      <date>2018</date>
+    </reference>
+    <reference>
+      <title>Development of "all natural" layer-by-layer redispersible solid lipid nanoparticles by nano spray drying technology</title>
+      <authors>
+        <author>T Wang</author>
+        <author>Q Hu</author>
+        <author>M Zhou</author>
+        <author>Y Xia</author>
+        <author>M Nieh</author>
+        <author>Y Luo</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Lipid nanoparticles (SLN, NLC): overcoming the anatomical and physiological barriers of the eye -part IIocular drug-loaded lipid nanoparticles</title>
+      <authors>
+        <author>E Sánchez-López</author>
+        <author>M Espina</author>
+        <author>S Doktorovova</author>
+        <author>E Souto</author>
+        <author>M García</author>
+      </authors>
+      <date>2017</date>
+    </reference>
+    <reference>
+      <title>Development of dry powder inhaler formulation loaded with alendronate solid lipid nanoparticles: solid-state characterization and aerosol dispersion performance</title>
+      <authors>
+        <author>Ezzati Nazhad Dolatabadi</author>
+        <author>J Hamishehkar</author>
+        <author>H Valizadeh</author>
+        <author>H</author>
+      </authors>
+      <date>2015</date>
+    </reference>
+    <reference>
+      <title>Potential of solid lipid nanoparticles in brain targeting</title>
+      <authors>
+        <author>I Kaur</author>
+        <author>R Bhandari</author>
+        <author>S Bhandari</author>
+        <author>V Kakkar</author>
+      </authors>
+      <date>2008</date>
+    </reference>
+    <reference>
+      <title>Are nanostructured lipid carriers (NLCs) better than solid lipid nanoparticles (SLNs): development, characterizations and comparative evaluations of clotrimazole-loaded SLNs and NLCs?</title>
+      <authors>
+        <author>S Das</author>
+        <author>W Ng</author>
+        <author>R Tan</author>
+      </authors>
+      <date>2012</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles for oral delivery of poorly soluble drugs</title>
+      <authors>
+        <author>N Jawahar</author>
+        <author>S Meyyanathan</author>
+        <author>G Reddy</author>
+        <author>S Sood</author>
+      </authors>
+      <date>2012</date>
+    </reference>
+    <reference>
+      <title>Edible polymers: challenges and opportunities</title>
+      <authors>
+        <author>S Shit</author>
+        <author>P Shah</author>
+      </authors>
+      <date>2014</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles-a review</title>
+      <authors>
+        <author>N Yadav</author>
+        <author>S Khatak</author>
+        <author>Sara Us</author>
+      </authors>
+      <date>2013</date>
+    </reference>
+    <reference>
+      <title>Preparation and investigation of solid lipid nanoparticles for drug delivery</title>
+      <authors>
+        <author>G Kalaycioglu</author>
+        <author>N Aydogan</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles: an oral bioavailability enhancer vehicle</title>
+      <authors>
+        <author>H Harde</author>
+        <author>M Das</author>
+        <author>S Jain</author>
+      </authors>
+      <date>2011</date>
+    </reference>
+    <reference>
+      <title>Nanostructured lipid carriers and their current application in targeted drug delivery</title>
+      <authors>
+        <author>P Jaiswal</author>
+        <author>B Gidwani</author>
+        <author>A Vyas</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles: a review</title>
+      <authors>
+        <author>E Prabhakaran</author>
+        <author>Abdul Hasan</author>
+        <author>A Karunanidhi</author>
+        <author>P</author>
+      </authors>
+      <date>2012</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles (SLN™)</title>
+      <authors>
+        <author>E Souto</author>
+        <author>J Fangueiro</author>
+        <author>R Müller</author>
+      </authors>
+      <date>2013</date>
+    </reference>
+    <reference>
+      <title>Investigation of the gel formation of phospholipid-stabilized solid lipid nanoparticles</title>
+      <authors>
+        <author>K Westesen</author>
+        <author>B Siekmann</author>
+      </authors>
+      <date>1997</date>
+    </reference>
+    <reference>
+      <title>Natural emulsifiersbiosurfactants, phospholipids, biopolymers, and colloidal particles: molecular and physicochemical basis of functional performance</title>
+      <authors>
+        <author>D Mcclements</author>
+        <author>C Gumus</author>
+      </authors>
+      <date>2016</date>
+    </reference>
+    <reference>
+      <title>Polyhydroxy surfactants for the formulation of lipid nanoparticles (SLN and NLC): effects on size, physical stability and particle matrix structure</title>
+      <authors>
+        <author>A Kovacevic</author>
+        <author>S Savic</author>
+        <author>G Vuleta</author>
+        <author>R Müller</author>
+        <author>C Keck</author>
+      </authors>
+      <date>2011</date>
+    </reference>
+    <reference>
+      <title>Comparison of wax and glyceride solid lipid nanoparticles (SLN)</title>
+      <authors>
+        <author>V Jenning</author>
+        <author>S Gohla</author>
+      </authors>
+      <date>2000</date>
+    </reference>
+    <reference>
+      <title>Unknown</title>
+      <authors>
+        <author>M Sznitowska</author>
+        <author>E Wolska</author>
+        <author>H Baranska</author>
+        <author>Cal</author>
+      </authors>
+      <date>2024</date>
+    </reference>
+    <reference>
+      <title>The effect of a lipid composition and a surfactant on the characteristics of the solid lipid microspheres and nanospheres (SLM and SLN)</title>
+      <authors>
+        <author>J</author>
+      </authors>
+      <date>2017</date>
+    </reference>
+    <reference>
+      <title>Approaches for the development of solid and semi-solid lipid-based formulations</title>
+      <authors>
+        <author>V Jannin</author>
+        <author>J Musakhanian</author>
+        <author>D Marchaud</author>
+      </authors>
+      <date>2008</date>
+    </reference>
+    <reference>
+      <title>Influence of an optimized non-ionic emulsifier blend on properties of oil-in-water emulsions</title>
+      <authors>
+        <author>R Gullapalli</author>
+        <author>B Sheth</author>
+      </authors>
+      <date>1999</date>
+    </reference>
+    <reference>
+      <title>Factors affecting emulsion stability, and the HLB concept</title>
+      <authors>
+        <author>J Boyd</author>
+        <author>C Parkinson</author>
+        <author>P Sherman</author>
+      </authors>
+      <date>1972</date>
+    </reference>
+    <reference>
+      <title>Solubilization by nonionic surfactants in the HLB-temperature range</title>
+      <authors>
+        <author>S Friberg</author>
+        <author>I Buraczewska</author>
+        <author>J Ravey</author>
+      </authors>
+      <date>1977</date>
+    </reference>
+    <reference>
+      <title>Multiple W/O/W emulsions-using the required HLB for emulsifier evaluation</title>
+      <authors>
+        <author>T Schmidts</author>
+        <author>D Dobler</author>
+        <author>A Guldan</author>
+        <author>N Paulus</author>
+        <author>F Runkel</author>
+      </authors>
+      <date>2010</date>
+    </reference>
+    <reference>
+      <title>Cationic Emulsifier System</title>
+      <authors>
+        <author>J Clumpner</author>
+      </authors>
+      <date>1972</date>
+    </reference>
+    <reference>
+      <title>Use of the HLB system in selecting emulsifiers for emulsion polymerization</title>
+      <authors>
+        <author>G Greth</author>
+        <author>J Wilson</author>
+      </authors>
+      <date>1961</date>
+    </reference>
+    <reference>
+      <title>Dispersion Comprising a Non-Ionic Emulsifier</title>
+      <authors>
+        <author>C Meier</author>
+        <author>J Eisele</author>
+        <author>M Schnabel</author>
+        <author>K Schultes</author>
+        <author>S Grimm</author>
+        <author>H Petereit</author>
+      </authors>
+      <date>2006</date>
+    </reference>
+    <reference>
+      <title>Association of emulsifiers in aqueous systems</title>
+      <authors>
+        <author>N Krog</author>
+      </authors>
+      <date>1997</date>
+    </reference>
+    <reference>
+      <title>Physostigmine emulsion: a new injectable controlled release delivery system</title>
+      <authors>
+        <author>S Benita</author>
+        <author>D Friedman</author>
+        <author>M Weinstock</author>
+      </authors>
+      <date>1986</date>
+    </reference>
+    <reference>
+      <title>The function of phospholipids of soybean lecithin in emulsions</title>
+      <authors>
+        <author>L Rydhag</author>
+        <author>I Wilton</author>
+      </authors>
+      <date>1981</date>
+    </reference>
+    <reference>
+      <title>Corn meal extrusion with emulsifier and soybean fiber</title>
+      <authors>
+        <author>L Hu</author>
+        <author>F Hsieh</author>
+        <author>H Huff</author>
+      </authors>
+      <date>1993</date>
+    </reference>
+    <reference>
+      <title>Production of solid lipid nanoparticles (SLN): scaling up feasibilities</title>
+      <authors>
+        <author>A Dingler</author>
+        <author>S Gohla</author>
+      </authors>
+      <date>2002</date>
+    </reference>
+    <reference>
+      <title>Medium scale production of solid lipid nanoparticles (SLN) by high pressure homogenization</title>
+      <authors>
+        <author>V Jenning</author>
+        <author>A Lippacher</author>
+        <author>S Gohla</author>
+      </authors>
+      <date>2002</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles (SLN) and nanostructured lipid carriers (NLC) in cosmetic and dermatological preparations</title>
+      <authors>
+        <author>R Müller</author>
+        <author>M Radtke</author>
+        <author>S Wissing</author>
+      </authors>
+      <date>2002</date>
+    </reference>
+    <reference>
+      <title>Preparation, characterization and biocompatibility studies on risperidone-loaded solid lipid nanoparticles (SLN): high pressure homogenization versus ultrasound</title>
+      <authors>
+        <author>A Silva</author>
+        <author>E González-Mira</author>
+        <author>M García</author>
+        <author>M Egea</author>
+        <author>J Fonseca</author>
+        <author>R Silva</author>
+      </authors>
+      <date>2011</date>
+    </reference>
+    <reference>
+      <title>Recent advances in lipid nanoparticle formulations with solid matrix for oral drug delivery</title>
+      <authors>
+        <author>S Das</author>
+        <author>A Chaudhury</author>
+      </authors>
+      <date>2011</date>
+    </reference>
+    <reference>
+      <title>Preparation and investigation of indirubin-loaded SLN nanoparticles and their anti-cancer effects on human glioblastoma U87MG cells</title>
+      <authors>
+        <author>A Rahiminejad</author>
+        <author>R Dinarvand</author>
+        <author>B Johari</author>
+        <author>Jafari Nodooshan</author>
+        <author>S Rashti</author>
+        <author>A Rismani</author>
+        <author>E</author>
+      </authors>
+      <date>2019</date>
+    </reference>
+    <reference>
+      <title>Optimizing SLN and NLC by 2(2) full factorial design: effect of homogenization technique</title>
+      <authors>
+        <author>P Severino</author>
+        <author>M Santana</author>
+        <author>E Souto</author>
+      </authors>
+      <date>2012</date>
+    </reference>
+    <reference>
+      <title>Investigation of the factors influencing the incorporation of clotrimazole in SLN and NLC prepared by hot high-pressure homogenization</title>
+      <authors>
+        <author>E Souto</author>
+        <author>R Müller</author>
+      </authors>
+      <date>2006</date>
+    </reference>
+    <reference>
+      <title>Evaluation of the physical stability of SLN and NLC before and after incorporation into hydrogel formulations</title>
+      <authors>
+        <author>E Souto</author>
+        <author>S Wissing</author>
+        <author>C Barbosa</author>
+        <author>R Müller</author>
+      </authors>
+      <date>2004</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles (SLN) and nanostructured lipid carriers (NLC) for application of ascorbyl palmitate</title>
+      <authors>
+        <author>M Üner</author>
+        <author>S Wissing</author>
+        <author>G Yener</author>
+        <author>R Müller</author>
+      </authors>
+      <date>2005</date>
+    </reference>
+    <reference>
+      <title>Lipid nanoparticles (SLN, NLC) in cosmetic and pharmaceutical dermal products</title>
+      <authors>
+        <author>J Pardeike</author>
+        <author>A Hommoss</author>
+        <author>R Müller</author>
+      </authors>
+      <date>2009</date>
+    </reference>
+    <reference>
+      <title>Development of nitrendipine controlled release formulations based on SLN and NLC for topical delivery: in vitro and ex vivo characterization</title>
+      <authors>
+        <author>K Bhaskar</author>
+        <author>Krishna Mohan</author>
+        <author>C Lingam</author>
+        <author>M</author>
+        <author>Prabhakar Reddy</author>
+        <author>V Venkateswarlu</author>
+        <author>V</author>
+        <author>Madhusudan Rao</author>
+        <author>Y</author>
+      </authors>
+      <date>2008</date>
+    </reference>
+    <reference>
+      <title>Lipid nanoparticles as carriers for cosmetic ingredients: the first (SLN) and the second generation (NLC)</title>
+      <authors>
+        <author>K Guimarães</author>
+        <author>M Ré</author>
+      </authors>
+      <date>2011</date>
+    </reference>
+    <reference>
+      <title>Lipid nanoparticles as vehicles for topical psoralen delivery: solid lipid nanoparticles (SLN) versus nanostructured lipid carriers (NLC)</title>
+      <authors>
+        <author>J Fang</author>
+        <author>C Fang</author>
+        <author>C Liu</author>
+        <author>Y Su</author>
+      </authors>
+      <date>2008</date>
+    </reference>
+    <reference>
+      <title>Microemulsion extrusion technique: a new method to produce lipid nanoparticles</title>
+      <authors>
+        <author>M De Jesus</author>
+        <author>A Radaic</author>
+        <author>I Zuhorn</author>
+        <author>Paula De</author>
+      </authors>
+      <date>2013</date>
+    </reference>
+    <reference>
+      <title>Influence of high pressure homogenisation equipment on nanodispersions characteristics</title>
+      <authors>
+        <author>S Liedtke</author>
+        <author>S Wissing</author>
+        <author>R Müller</author>
+        <author>K Mäder</author>
+      </authors>
+      <date>2000</date>
+    </reference>
+    <reference>
+      <title>The influence of lipid characteristics on the formation, in vitro release, and in vivo absorption of protein-loaded SLN prepared by the double emulsion process</title>
+      <authors>
+        <author>R Yang</author>
+        <author>R Gao</author>
+        <author>F Li</author>
+        <author>H He</author>
+        <author>X Tang</author>
+      </authors>
+      <date>2011</date>
+    </reference>
+    <reference>
+      <title>Studies on crystallinity state of puerarin loaded solid lipid nanoparticles prepared by double emulsion method</title>
+      <authors>
+        <author>Z Li</author>
+        <author>L Yu</author>
+        <author>L Zheng</author>
+        <author>F Geng</author>
+      </authors>
+      <date>2010</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles (SLN): method, characterization and applications</title>
+      <authors>
+        <author>A Garud</author>
+        <author>D Singh</author>
+        <author>N Garud</author>
+      </authors>
+      <date>2012</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles: a modern formulation approach in drug delivery system</title>
+      <authors>
+        <author>S Mukherjee</author>
+        <author>S Ray</author>
+        <author>R Thakur</author>
+      </authors>
+      <date>2009</date>
+    </reference>
+    <reference>
+      <title>Optimization of the emulsification and solvent displacement method for the preparation of solid lipid nanoparticles</title>
+      <authors>
+        <author>E Noriega-Peláez</author>
+        <author>N Mendoza-Muñoz</author>
+        <author>A Ganem-Quintanar</author>
+        <author>D Quintanar-Guerrero</author>
+      </authors>
+      <date>2011</date>
+    </reference>
+    <reference>
+      <title>A first approach to the study of calixarene solid lipid nanoparticle (SLN) toxicity</title>
+      <authors>
+        <author>P Shahgaldian</author>
+        <author>E Da Silva</author>
+        <author>A Coleman</author>
+      </authors>
+      <date>2003</date>
+    </reference>
+    <reference>
+      <title>Preparation of solid lipid nanoparticles by a solvent emulsification-diffusion technique</title>
+      <authors>
+        <author>M Trotta</author>
+        <author>F Debernardi</author>
+        <author>O Caputo</author>
+      </authors>
+      <date>2003</date>
+    </reference>
+    <reference>
+      <title>Adaptation and optimization of the emulsification-diffusion technique to prepare lipidic nanospheres</title>
+      <authors>
+        <author>D Quintanar-Guerrero</author>
+        <author>D Tamayo-Esquivel</author>
+        <author>A Ganem-Quintanar</author>
+        <author>E Allémann</author>
+        <author>E Doelker</author>
+      </authors>
+      <date>2005</date>
+    </reference>
+    <reference>
+      <title>A novel phase inversion-based process for the preparation of lipid nanocarriers</title>
+      <authors>
+        <author>B Heurtault</author>
+        <author>P Saulnier</author>
+        <author>B Pech</author>
+        <author>J Proust</author>
+        <author>J Benoit</author>
+      </authors>
+      <date>2002</date>
+    </reference>
+    <reference>
+      <title>Nanostructured lipid carrier (NLC) based gel of celecoxib</title>
+      <authors>
+        <author>M Joshi</author>
+        <author>V Patravale</author>
+      </authors>
+      <date>2008</date>
+    </reference>
+    <reference>
+      <title>Solid lipid nanoparticles produced through a coacervation method</title>
+      <authors>
+        <author>L Battaglia</author>
+        <author>M Gallarate</author>
+        <author>R Cavalli</author>
+        <author>M Trotta</author>
+      </authors>
+      <date>2010</date>
+    </reference>
+  </references>
+</document>

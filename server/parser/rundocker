@@ -1,0 +1,1 @@
+docker run --rm --init -p 8070:8070 grobid/grobid:0.8.0

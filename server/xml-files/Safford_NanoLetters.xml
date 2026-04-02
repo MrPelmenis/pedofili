@@ -1,0 +1,605 @@
+<document>
+	<file>./pdf-files/Safford_NanoLetters.pdf</file>
+	<title>Probing the Role of Lipid Nanoparticle Elasticity on mRNA Delivery to the Placenta</title>
+	<date>2025</date>
+	<doi_number>10.1021/acs.nanolett.4c06241</doi_number>
+	<img_preview_path>./pdf-preview-images/Safford_NanoLetters.jpeg</img_preview_path>
+	<authors>
+		<author>Hannah C. Safford</author>
+		<author>Cecilia F. Shuler</author>
+		<author>Hannah C. Geisler</author>
+		<author>Ajay S. Thatte</author>
+		<author>Kelsey L. Swingle</author>
+		<author>Emily L. Han</author>
+		<author>Amanda M. Murray</author>
+		<author>Alex G. Hamilton</author>
+		<author>Hannah M. Yamagata</author>
+		<author>Michael J. Mitchell</author>
+	</authors>
+	<abstract>It is well established that the physicochemical properties of lipid nanoparticles (LNPs) can govern their interactions with various biological barriers. One property hypothesized to influence nanoparticle-cell interactions is elasticity. Here, we formulate LNPs with naturally occurring cholesterol analogs to tune LNP elasticity and study its role on mRNA delivery to the placenta. LNP elasticity was measured via atomic force microscopy where these LNPs exhibited Young's moduli ranging from 71.0 ± 26.2 to 411.4 ± 145.7 kPa. In vitro screening of these LNPs in placental trophoblasts showed that stiffer LNPs improved LNP uptake and mRNA delivery compared with softer LNPs. Following intravenous administration to pregnant mice, the stiffer LNPs incorporating β-sitosterol enhanced placental and reduced liver mRNA delivery compared with softer LNPs containing only cholesterol. These results demonstrate the ability of stiffer LNPs to promote placental mRNA delivery and highlight the potential of tuning LNP elasticity to improve LNPmediated mRNA delivery to organs of interest.</abstract>
+	<methods>
+		<method>
+			<heading>■ FORMULATION AND CHARACTERIZATION OF LNPS WITH TUNABLE ELASTICITY</heading>
+			<text>Thus far, limited work has been done to characterize the elasticity of LNPs. As such, we sought to use AFM to measure the Young's modulus of several LNP formulations and assess if LNP elasticity can be modulated through sterol structure. To formulate LNPs, a lipid phase containing an ionizable lipid, phospholipid, sterol, and lipid-PEG were combined in ethanol at distinct molar ratios and chaotically mixed with an aqueous mRNA phase in a microfluidic device (Table S1). To facilitate LNP immobilization for AFM, a biotin-avidin interaction was utilized, as this technique has been employed to immobilize other lipid-based nanoparticle systems for AFM and direct deposition of mRNA LNPs onto glass and mica surfaces has yielded mixed immobilization results. [29][30][31][34][35][36][37] Specifically, biotin-modified LNPs were added to a glass slide coated with biotinylated-PEG bound to neutravidin and immersed in 1X PBS for force-indentation curve collection in liquid (Figure 1B). Prior to AFM measurements, all LNPs were characterized for size, polydispersity index (PDI), and encapsulation efficiency (Table S2).
+
+To begin, AFM was used to measure the Young's modulus of three industry-standard LNP formulations, SM-102, MC3, and C12-200 (Figure 1C). C12-200 had the highest measured Young's modulus at 118.8 ± 61.7 kPa, followed by SM-102 at 91.1 ± 32.8 kPa and MC3 at 63.6 ± 17.7 kPa. Next, we measured the Young's modulus of MC3 LNPs formulated with Chol, Camp, Sito, or Stig, as these formulations are hypothesized to have different elasticities (Figure 1D). 16,32 Formulating MC3 LNPs with Camp increased the modulus to 93.6 ± 19.2 kPa while incorporating Sito doubled the Young's modulus to 135.4 ± 45.3 kPa. MC3 LNPs formulated with Stig had the highest Young's modulus of 207.9 ± 44.6 kPa.
+
+Given our interest in studying the role of LNP elasticity for mRNA delivery to the placenta, we sought to incorporate these cholesterol analogs into a placenta-tropic LNP formulation. To this end, we formulated LNPs using the previously identified placenta-tropic C12-494 ionizable lipid with cholesterol or a cholesterol analog. [5][6][7] Similar to the trends observed for the MC3 formulations, the C12-494 Chol and Camp LNPs had the lowest measured Young's moduli at 71.0 ± 26.2 and 87.3 ± 35.5 kPa, respectively. The Sito and Stig LNPs were both significantly stiffer than the Chol LNP with a measured Young's modulus of 201.7 ± 71.4 and 411.4 ± 145.7 kPa, respectively (Figure 1E). The higher standard deviation observed for the Sito and Stig LNPs may be due to variation in the Young's modulus within each LNP population, where small differences in LNP lamellarity, mRNA loading, or size may contribute to differences in elasticity. 16,21,38 The differences in elasticity between LNP formulations may be attributed to the structures of each cholesterol analog. Campesterol, β-sitosterol, and stigmastanol all have a C-24 alkyl chain along their tail. Campesterol has an additional methyl group, β-sitosterol has an additional ethyl group, and stigmastanol has an additional ethyl group and a reduction of the double bond in the cholesterol body. Previous studies have shown that the C-24 alkyl groups induce defects in the ordering of lipid bilayers proportional to the length of the alkyl side chain, 16,32,39,40 suggesting LNPs formulated with cholesterol would have the fewest defects and LNPs formulated with β-sitosterol and stigmastanol would have the most. Addition- ally, cryo-EM images of MC3 Sito and Stig LNPs show that these LNPs have faceted structures compared to the uniform curvature of cholesterol LNPs. 16,32 The shift toward a more crystalline, faceted LNP structure following cholesterol analog incorporation likely correlates to the increased Young's modulus for each cholesterol analog LNP formulation.
+
+■ EVALUATION OF C12-494 LNPS CONTAINING</text>
+		</method>
+	</methods>
+	<full_text>I onizable lipid nanoparticles (LNPs) have recently emerged as the most clinically advanced nonviral platform for therapeutic delivery of nucleic acids. LNPs are highly advantageous delivery vehicles due to their modular nature, biocompatibility, and ability to enable potent intracellular nucleic acid delivery. [1][2][3][4] As the LNP field continues to grow, new therapeutic applications have emerged beyond the traditional use of LNPs for vaccines and the treatment of liver-centric diseases. In particular, LNP-mediated delivery of messenger RNA (mRNA) to the placenta has been explored for the treatment of placental dysfunction. [5][6][7][8][9][10] The placenta is an organ unique to pregnancy, developing throughout gestation to facilitate nutrient and oxygen exchange between maternal and fetal circulation. [11][12][13] Placental disorders, such as pre-eclampsia, can arise during pregnancy as a result of dysfunctional placental development and can lead to immediate and long-term complications for both mother and fetus. 11,12,14 Pre-eclampsia affects 5-8% of all pregnancies and is a leading cause of maternal mortality worldwide. 11,12 Despite the global prevalence of this disorder, no therapeutic has been developed to address the underlying placental dysfunction, inciting the need to develop drug delivery platforms capable of achieving extrahepatic delivery to the placenta. 11,12 It has been well established that the physicochemical properties of LNPs, including their size, charge, chemical composition, and surface chemistry, can affect their interactions with various cell types and influence biodistibution. [15][16][17][18][19][20] To improve extrahepatic mRNA LNP delivery to the placenta, a major research thrust has focused on chemical modifications, altering either the ionizable lipid structure or excipient molar ratios of the LNP formulation. 5,[7][8][9] However, physical cues are also important in influencing nanoparticle-cell interactions. Previously, nanoparticle elasticity has been shown to impact nanoparticle uptake into both immune cells 21,22 and cancer cells, [23][24][25][26] where stiffer nanoparticles have greater uptake into macrophages and T cells while softer nanoparticles preferentially accumulate in tumors. In the placenta, polymeric microparticle elasticity was shown to impact uptake into placental trophoblasts, the main cell type of the placenta, where uptake was enhanced with rigid microparticles. 27 LNP elasticity has not been well characterized but it has been hypothesized to impact LNP interactions with cellular barriers and subsequent mRNA transfection. 16,28 Furthermore, no work has been done to study the effects of LNP elasticity on LNP-mediated delivery of mRNA to the placenta.
+
+Given the tunable nature of LNPs, we sought to explore whether LNP elasticity could be modified through changes in excipient composition and if changes in LNP elasticity could impact LNP uptake and mRNA transfection in the placenta. Atomic force microscopy (AFM) is frequently used to quantify nanoparticle elasticity and measure the Young's modulus of nanoparticle formulations. Previously, AFM has been performed on mRNA LNPs to study the structure, 29,30 polydispersity, 30 and surface interactions 31 of LNPs. However, Young's modulus values of mRNA LNPs have not been reported.
+
+To generate LNPs with tunable elasticity, we were interested in modulating the cholesterol component of our formulation. Cholesterol is one of the main excipients used in LNPs and plays an important structural role by modulating membrane rigidity to enhance LNP stability. 2,4 Recently, a class of naturally occurring cholesterol analogs known as phytosterols have been explored for LNP-mediated mRNA delivery. 16,32,33 In particular, formulating LNPs with these analogs demonstrated changes in LNP morphology and lamellarity. 16,32 These works investigated the effect of cholesterol analog substitution on membrane rigidity via a fluorescent probe sensitive to lipid bilayer structures; however, the influence of the phytosterol structure on Young's modulus values was not reported. 16 Here, we develop a methodology to measure LNP elasticity via AFM and demonstrate that changes in LNP elasticity can be tuned through the sterol structure. Using the placentatropic C12-494 ionizable lipid, we generated a library of LNPs formulated with cholesterol (Chol) or one of three cholesterol analogs: campesterol (Camp), β-sitosterol (Sito), or stigmastanol (Stig) (Figure 1A). LNP elasticity was evaluated via AFM, where these LNPs had measured Young's moduli ranging from 71.0 to 411.4 kPa. Hypothesizing that rigid LNPs may lead to improved placental mRNA LNP delivery, we screened this library of LNPs in vitro in trophoblasts to characterize changes in LNP uptake and mRNA transfection. Through these screens, the intermediate stiffness Sito LNP was identified as the lead LNP candidate and was administered to pregnant mice, where it mediated reduced liver and increased placental mRNA delivery compared to the standard Chol LNP formulation. Taken together, these results support the potential of the Sito LNP to potently deliver mRNA to the placenta and demonstrate that LNP elasticity is a property that can tuned to improve placental mRNA delivery.
+
+Thus far, limited work has been done to characterize the elasticity of LNPs. As such, we sought to use AFM to measure the Young's modulus of several LNP formulations and assess if LNP elasticity can be modulated through sterol structure. To formulate LNPs, a lipid phase containing an ionizable lipid, phospholipid, sterol, and lipid-PEG were combined in ethanol at distinct molar ratios and chaotically mixed with an aqueous mRNA phase in a microfluidic device (Table S1). To facilitate LNP immobilization for AFM, a biotin-avidin interaction was utilized, as this technique has been employed to immobilize other lipid-based nanoparticle systems for AFM and direct deposition of mRNA LNPs onto glass and mica surfaces has yielded mixed immobilization results. [29][30][31][34][35][36][37] Specifically, biotin-modified LNPs were added to a glass slide coated with biotinylated-PEG bound to neutravidin and immersed in 1X PBS for force-indentation curve collection in liquid (Figure 1B). Prior to AFM measurements, all LNPs were characterized for size, polydispersity index (PDI), and encapsulation efficiency (Table S2).
+
+To begin, AFM was used to measure the Young's modulus of three industry-standard LNP formulations, SM-102, MC3, and C12-200 (Figure 1C). C12-200 had the highest measured Young's modulus at 118.8 ± 61.7 kPa, followed by SM-102 at 91.1 ± 32.8 kPa and MC3 at 63.6 ± 17.7 kPa. Next, we measured the Young's modulus of MC3 LNPs formulated with Chol, Camp, Sito, or Stig, as these formulations are hypothesized to have different elasticities (Figure 1D). 16,32 Formulating MC3 LNPs with Camp increased the modulus to 93.6 ± 19.2 kPa while incorporating Sito doubled the Young's modulus to 135.4 ± 45.3 kPa. MC3 LNPs formulated with Stig had the highest Young's modulus of 207.9 ± 44.6 kPa.
+
+Given our interest in studying the role of LNP elasticity for mRNA delivery to the placenta, we sought to incorporate these cholesterol analogs into a placenta-tropic LNP formulation. To this end, we formulated LNPs using the previously identified placenta-tropic C12-494 ionizable lipid with cholesterol or a cholesterol analog. [5][6][7] Similar to the trends observed for the MC3 formulations, the C12-494 Chol and Camp LNPs had the lowest measured Young's moduli at 71.0 ± 26.2 and 87.3 ± 35.5 kPa, respectively. The Sito and Stig LNPs were both significantly stiffer than the Chol LNP with a measured Young's modulus of 201.7 ± 71.4 and 411.4 ± 145.7 kPa, respectively (Figure 1E). The higher standard deviation observed for the Sito and Stig LNPs may be due to variation in the Young's modulus within each LNP population, where small differences in LNP lamellarity, mRNA loading, or size may contribute to differences in elasticity. 16,21,38 The differences in elasticity between LNP formulations may be attributed to the structures of each cholesterol analog. Campesterol, β-sitosterol, and stigmastanol all have a C-24 alkyl chain along their tail. Campesterol has an additional methyl group, β-sitosterol has an additional ethyl group, and stigmastanol has an additional ethyl group and a reduction of the double bond in the cholesterol body. Previous studies have shown that the C-24 alkyl groups induce defects in the ordering of lipid bilayers proportional to the length of the alkyl side chain, 16,32,39,40 suggesting LNPs formulated with cholesterol would have the fewest defects and LNPs formulated with β-sitosterol and stigmastanol would have the most. Addition- ally, cryo-EM images of MC3 Sito and Stig LNPs show that these LNPs have faceted structures compared to the uniform curvature of cholesterol LNPs. 16,32 The shift toward a more crystalline, faceted LNP structure following cholesterol analog incorporation likely correlates to the increased Young's modulus for each cholesterol analog LNP formulation.
+
+■ EVALUATION OF C12-494 LNPS CONTAINING
+
+Nanoparticle elasticity has been shown to influence nanoparticle uptake into unique cell types. [21][22][23][24][25][26] As such, we sought to investigate the effects of LNP elasticity on both LNP uptake and mRNA transfection in placental trophoblasts using the placenta-tropic C12-494 cholesterol analog LNPs (Table S3). For in vitro screening, LNPs were formulated to encapsulate mCherry mRNA as a reporter cargo and labeled with the lipophilic fluorescent dye DiR to track LNP uptake. LNPs incorporating cholesterol or a cholesterol analog displayed uniform size distributions, low PDI, encapsulation efficiencies greater than 90%, and neutral zeta potentials (Figure 2A-C, Table S4). When stored at 4 °C for 2 weeks, all LNPs exhibited similar changes in size (Figure S1).
+
+To assess both LNP uptake and mRNA transfection, BeWo b30 cells, an immortalized trophoblast cell line, were treated with LNPs. 1, 4, or 18 h after LNP treatment, flow cytometry was used to assess DiR fluorescence and mCherry expression. These time points were selected as LNP uptake occurs on an earlier time scale than mRNA transfection, allowing us to examine both processes side-by-side. [41][42][43] After 1 h of LNP treatment, both the Camp and Sito LNPs demonstrated a slight increase in the DiR median fluorescent intensity (MFI) compared to the Chol LNP, suggesting an improvement in LNP uptake. By both 4 and 18 h, the Sito LNP mediated a significant increase in DiR MFI compared to the Chol LNP (Figure 2D-F). At earlier time points, no differences in mCherry expression were observed across the LNP library, but by 18 h, the Sito LNP demonstrated a 2-fold increase in mCherry MFI compared to the Chol LNP, confirming its potential to potently deliver mRNA to trophoblasts (Figure 2G-I). Additionally, no cytotoxicity was observed for any of the LNP formulations (Figure S2). These results indicate that LNP uptake and mRNA delivery to trophoblasts is improved by increasing the Young's modulus of LNPs, but LNPs that are too rigid may encounter challenges with uptake or release of cargo. 16 Thus, an LNP of intermediate elasticity may be preferred, as the Sito LNP demonstrated the greatest improvement in LNP uptake and mRNA delivery compared to the Chol LNP.
+
+One limitation to the use of cholesterol analogs to alter LNP elasticity is that differences in mRNA transfection may be a result of the sterol structure, changes in elasticity, or a combination of both. To investigate whether the observed differences in in vitro mRNA delivery to trophoblasts held true for other LNPs of varying elasticities, we sought to alter LNP elasticity by solely changing the amount of cholesterol in our formulation, a strategy employed for many liposomal systems. 21,23,25 AFM measurements revealed C12-494 LNPs formulated with a 33% decrease in cholesterol lowered the Young's modulus to 61.8 ± 31.1 kPa while a 33% increase in cholesterol significantly increased the Young's modulus to 136.2 ± 51.9 kPa (Figure S3A, Table S2). When BeWo b30 cells were treated with either the low cholesterol, Chol or high cholesterol LNPs encapsulating luciferase mRNA, the stiffer, high cholesterol LNPs exhibited a 2-fold improvement in luciferase expression compared to the Chol LNP, aligning with our results that LNPs of intermediate rigidity improve mRNA delivery to trophoblasts (Figure S3B).
+
+Nanoparticle elasticity has also been shown to influence nanoparticle uptake pathways in cells. 22,24,26 While not a uniform trend, stiffer nanoparticles have exhibited preferential uptake through clathrin-and caveolae-mediated endocytosis while softer nanoparticles can be internalized through both nonspecific fusion and receptor-independent endocytosis pathways. 22,26 As such, we sought to elucidate the underlying pathways governing LNP trafficking in trophoblasts for LNPs of varied elasticity. We hypothesized that stiffer LNPs may have a greater reliance on clathrin-and caveolae-mediated endocytosis compared with the softer Chol LNPs. To this end, we designed an inhibitor panel of five small molecules that inhibit macropinocytosis (amiloride), clathrin-mediated endocytosis (chlorpromazine), caveolae-mediated endocytosis (genistein), lipid-raft mediated endocytosis (methyl-β-cyclodextrin), or endosomal acidification (bafilomycin A1) (Figure 3A).
+
+To investigate endocytosis pathways, LNPs were formulated to encapsulate luciferase mRNA and BeWo b30 cells were pretreated with each inhibitor dissolved in DMSO or DMSO alone to ensure inhibition of mRNA transfection not a result of DMSO treatment. Across three of the inhibitors tested, namely amiloride, chlorpromazine and genistein, stiffer LNPs exhibited reduced luciferase expression compared to the Chol LNP formulation, suggesting that stiffer LNPs are endocytosed through macropinocytosis, clathrin-and caveolae-mediated endocytosis to a greater degree than softer LNPs (Figure 3B). Pretreatment with either methyl-β-cyclodextrin or bafilomycin A1 substantially reduced mRNA expression for all LNP formulations, demonstrating the importance of lipid-rafts and endosomal acidification for LNP endocytosis into trophoblasts. Additionally, we did not observe any toxicity for any combination of LNP or inhibitor, ensuring that reduced mRNA expression is a result of endocytosis inhibition rather than inhibitor-associated toxicity (Figure S4).
+
+■ ASSESSMENT OF LNP BIODISTRIBUTION, mRNA
+
+Given the improved LNP uptake and mRNA transfection demonstrated by the Sito LNP over the Chol LNP in vitro, we next assessed if these improvements would be maintained in vivo in pregnant mice. To this end, the Chol and Sito LNPs were formulated with luciferase mRNA, dye labeled with DiR, and the LNPs were intravenously administered to pregnant mice on gestational day E16. A cohort of mice was also treated with PBS. 6 h after treatment, mice were injected with luciferin, euthanized, and the maternal organs, placentas, and fetuses were harvested for fluorescent (LNP accumulation) and bioluminescent (mRNA transfection) imaging and quantification by an in vivo imaging system (IVIS) (Figure S5).
+
+In the maternal organs, fluorescence was primarily observed in the lungs, liver, and spleen for both the Chol and Sito LNPtreated mice and no differences in LNP biodistribution were observed between either treatment group (Figure 4A-D and Figure S6). Luciferase mRNA expression was observed primarily in the liver for both treatment groups, where mice treated with Sito LNPs had significantly reduced liver mRNA delivery compared to the Chol LNP-treated mice (Figure 4E-H and Figure S7). While not significant, a slight increase in luciferase signal was observed in the spleen for the Sito LNPtreated mice compared with the Chol LNP-treated mice. This trend aligns with previous findings from our group that found placenta-tropic LNPs also mediate mRNA delivery to the spleen, highlighting their ability to achieve extrahepatic LNP delivery. 5,7,10 Finally, no significant differences in luciferase expression were observed between the PBS-and LNP-treated mice in the lungs.
+
+We then imaged the placentas and fetuses and assessed the LNP biodistribution and mRNA transfection for each treatment group. Both the Chol and Sito LNP-treated mice had similar placental LNP accumulation but a significantly higher luminescent signal was observed in the placentas for the Sito LNP group compared to the Chol LNP group (Figure 5A,B,D,E andFigures S8 andS9). Consistent with our previous findings, we did not observe any fluorescent or luminescent signal in the fetuses for the LNP-treated groups (Figure 5C,F and Figures S8 andS9). [5][6][7] Given the decrease in liver and increase in placental luciferase signal for the Sito LNP-treated mice, we also calculated a liver:placenta (L:P) delivery ratio for both the Chol and Sito LNP groups (Figure S10). The L:P ratio was 3-fold lower for the Sito LNP group compared to the Chol LNP group. While this result is not statistically significant, it suggests that the Sito LNPs are more effective at reducing liver and increasing placental mRNA delivery compared to the Chol LNP.
+
+Finally, we sought to assess any risks of LNP-associated inflammation between the LNP-treated and the PBS-treated mice. To this end, we selected a panel of inflammatory cytokines and measured the relative concentration of each cytokine in serum for mice treated with PBS, Chol, or Sito LNPs (Figure 5G). 6 h after LNP administration, relative levels of granulocyte colony-stimulating factor (G-CSF) and RANTES were significantly higher for both Chol and Sito LNP-treated mice compared to the PBS-treated mice. Monocyte chemoattractant protein-1 (MCP-1) was elevated for both LNP-treated mice compared to PBS-treated mice; however, significantly lower levels of MCP-1 were observed for the mice treated with Sito LNP compared to Chol LNP. Elevated levels of G-CSF, MCP-1, and RANTES have been previously reported after mRNA LNP administration, as these cytokines have been implicated in the innate immune response to foreign nucleic acids. 6,44,45 MCP-1 is a key initiator in the inflammation process, recruiting or enhancing the expression of inflammatory factors or cells. 46 The observed decrease in MCP-1 levels with the Sito LNP compared to the Chol LNP suggests that the Sito LNP may not induce as acute of an inflammatory response compared to the Chol LNP. 47,48 This is particularly important when developing LNP therapies to treat placental disorders such as pre-eclampsia, where exacerbation of pre-existing inflammation must be avoided. Lastly, off-target effects of administering an mRNA LNP therapy must be considered, especially when hepatic LNP accumulation and mRNA expression is observed. Future work should expand safety profiling to include the liver enzymes alanine aminotransferase (ALT) and aspartate aminotransferase (AST) as well as other inflammatory cytokines associated with LNP toxicity.
+
+In this work, we developed a methodology to measure the elasticity of LNPs through AFM, where we confirmed that the elasticity of LNPs can be modulated through the sterol structure. Formulating a placenta-tropic LNP formulation with one of three cholesterol analogs, campesterol, β-sitosterol, or stigmastanol, led to changes in the Young's modulus between formulations. In vitro screening of this LNP library identified the Sito LNP as a potent formulation for LNP uptake and mRNA transfection in trophoblasts. The Sito LNP was then validated in vivo in pregnant mice, where it mediated reduced liver and increased placental mRNA delivery compared to the Chol LNP formulation. Taken together, we found LNPs of an intermediate stiffness improved mRNA delivery to the placenta, although future work should investigate alternative strategies to tune LNP elasticity to confirm our observed results. We believe the AFM immobilization technique described here can be used to characterize the mechanical properties of other LNP formulations to further elucidate the effects of elasticity on mRNA LNP delivery to cell types of interest.
+
+The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.nanolett.4c06241.
+
+https://doi.org/10.1021/acs.nanolett.4c06241Nano Lett. 2025, 25, 4800-4808
+
+https://doi.org/10.1021/acs.nanolett.4c06241
+
+https://doi.org/10.1021/acs.nanolett.4c06241 Nano Lett. 2025, 25, 4800-4808 Downloaded via UNIV OF PENNSYLVANIA on April 25, 2025 at 16:32:02 (UTC).See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+https://doi.org/10.1021/acs.nanolett.4c06241Nano Lett. 2025, 25, 4800-4808</full_text>
+	<references>
+		<reference>
+			<title/>
+			<authors>
+				<author>C Hannah</author>
+				<author>Safford</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>Cecilia Shuler</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>C Hannah</author>
+				<author>Geisler</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>Ajay Thatte</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>L Kelsey</author>
+				<author>Swingle</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>Emily Han</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>Amanda Murray</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>Alex Hamilton</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title/>
+			<authors>
+				<author>M Hannah</author>
+				<author>Yamagata</author>
+			</authors>
+			<date/>
+		</reference>
+		<reference>
+			<title>Matter</title>
+			<authors>
+				<author>X Han</author>
+				<author>M Mitchell</author>
+				<author>G Nie</author>
+			</authors>
+			<date>2020</date>
+		</reference>
+		<reference>
+			<title>Nat. Rev. Mater</title>
+			<authors>
+				<author>X Hou</author>
+				<author>T Zaks</author>
+				<author>R Langer</author>
+				<author>Y Dong</author>
+			</authors>
+			<date>2021</date>
+		</reference>
+		<reference>
+			<title>PLOS Biology</title>
+			<authors>
+				<author>A Hamilton</author>
+				<author>K Swingle</author>
+				<author>M Mitchell</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>Trends in Molecular Medicine</title>
+			<authors>
+				<author>K Swingle</author>
+				<author>A Hamilton</author>
+				<author>M Mitchell</author>
+			</authors>
+			<date>2021</date>
+		</reference>
+		<reference>
+			<title>Small</title>
+			<authors>
+				<author>H Safford</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>J. Controlled Release</title>
+			<authors>
+				<author>H Geisler</author>
+			</authors>
+			<date>2024</date>
+		</reference>
+		<reference>
+			<title>J. Am. Chem. Soc</title>
+			<authors>
+				<author>K Swingle</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>Bioactive Materials</title>
+			<authors>
+				<author>R Young</author>
+			</authors>
+			<date>2024</date>
+		</reference>
+		<reference>
+			<title>Proc. Natl. Acad. Sci. U. S. A</title>
+			<authors>
+				<author>N Chaudhary</author>
+			</authors>
+			<date>2024</date>
+		</reference>
+		<reference>
+			<title>Nature</title>
+			<authors>
+				<author>K Swingle</author>
+			</authors>
+			<date>2025</date>
+		</reference>
+		<reference>
+			<title>Nat. Rev. Bioeng</title>
+			<authors>
+				<author>K Swingle</author>
+				<author>A Ricciardi</author>
+				<author>W Peranteau</author>
+				<author>M Mitchell</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>Small</title>
+			<authors>
+				<author>H Geisler</author>
+				<author>H Safford</author>
+				<author>M Mitchell</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>Adv. Drug Delivery Rev</title>
+			<authors>
+				<author>C Figueroa-Espada</author>
+				<author>S Hofbauer</author>
+				<author>M Mitchell</author>
+				<author>R Riley</author>
+			</authors>
+			<date>2020</date>
+		</reference>
+		<reference>
+			<title>Nat. Rev. Dis Primers</title>
+			<authors>
+				<author>E Dimitriadis</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>Nat. Nanotechnol</title>
+			<authors>
+				<author>Q Cheng</author>
+			</authors>
+			<date>2020</date>
+		</reference>
+		<reference>
+			<title>Nano Lett</title>
+			<authors>
+				<author>Y Eygeris</author>
+				<author>S Patel</author>
+				<author>A Jozic</author>
+				<author>G Sahay</author>
+			</authors>
+			<date>2020</date>
+		</reference>
+		<reference>
+			<title>J. Controlled Release</title>
+			<authors>
+				<author>K Swingle</author>
+			</authors>
+			<date>2022</date>
+		</reference>
+		<reference>
+			<title>Adv. Mater</title>
+			<authors>
+				<author>S Omo-Lamai</author>
+			</authors>
+			<date>2024</date>
+		</reference>
+		<reference>
+			<title>Science of The Total Environment</title>
+			<authors>
+				<author>Z Yuan</author>
+				<author>R Yan</author>
+				<author>Z Fu</author>
+				<author>T Wu</author>
+				<author>C Ren</author>
+			</authors>
+			<date>2024</date>
+		</reference>
+		<reference>
+			<title>Adv. Drug Delivery Rev</title>
+			<authors>
+				<author>C Hald Albertsen</author>
+			</authors>
+			<date>2022</date>
+		</reference>
+		<reference>
+			<title>J. Controlled Release</title>
+			<authors>
+				<author>N Benne</author>
+			</authors>
+			<date>2020</date>
+		</reference>
+		<reference>
+			<title>Sci. Adv</title>
+			<authors>
+				<author>Y Hui</author>
+			</authors>
+			<date>2020</date>
+		</reference>
+		<reference>
+			<title>Proc. Natl. Acad. Sci. U.S.A</title>
+			<authors>
+				<author>S Kong</author>
+				<author>D Costa</author>
+				<author>A Jagielska</author>
+				<author>K Van Vliet</author>
+				<author>P Hammond</author>
+			</authors>
+			<date>2021</date>
+		</reference>
+		<reference>
+			<title>Nat. Commun</title>
+			<authors>
+				<author>P Guo</author>
+			</authors>
+			<date>2018</date>
+		</reference>
+		<reference>
+			<title>Acta Pharmaceutica Sinica</title>
+			<authors>
+				<author>H Wu</author>
+			</authors>
+			<date>2019</date>
+		</reference>
+		<reference>
+			<title>Small</title>
+			<authors>
+				<author>P Gurnani</author>
+			</authors>
+			<date>2022</date>
+		</reference>
+		<reference>
+			<title>Macromol. Biosci</title>
+			<authors>
+				<author>X Li</author>
+			</authors>
+			<date>2019</date>
+		</reference>
+		<reference>
+			<title>Angew. Chem., Int. Ed. Engl</title>
+			<authors>
+				<author>S Lee</author>
+			</authors>
+			<date>2021</date>
+		</reference>
+		<reference>
+			<title>ACS Nano</title>
+			<authors>
+				<author>J Szebeni</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>J. Pharm. Sci</title>
+			<authors>
+				<author>Y Takechi-Haraya</author>
+				<author>A Usui</author>
+				<author>K Izutsu</author>
+				<author>Y Abe</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>Chem. Eng. Sci</title>
+			<authors>
+				<author>J Wang</author>
+			</authors>
+			<date>2025</date>
+		</reference>
+		<reference>
+			<title>Nat. Commun</title>
+			<authors>
+				<author>S Patel</author>
+			</authors>
+			<date>2020</date>
+		</reference>
+		<reference>
+			<title>Biomater. Sci</title>
+			<authors>
+				<author>M Herrera</author>
+				<author>J Kim</author>
+				<author>Y Eygeris</author>
+				<author>A Jozic</author>
+				<author>G Sahay</author>
+			</authors>
+			<date>2021</date>
+		</reference>
+		<reference>
+			<title>J. Am. Chem. Soc</title>
+			<authors>
+				<author>W Zeno</author>
+			</authors>
+			<date>2019</date>
+		</reference>
+		<reference>
+			<title>Langmuir</title>
+			<authors>
+				<author>H Brochu</author>
+				<author>P Vermette</author>
+			</authors>
+			<date>2008</date>
+		</reference>
+		<reference>
+			<title>Anal. Chem</title>
+			<authors>
+				<author>Y Takechi-Haraya</author>
+				<author>Y Goda</author>
+				<author>K Izutsu</author>
+				<author>K Sakai-Kato</author>
+			</authors>
+			<date>2019</date>
+		</reference>
+		<reference>
+			<title>Biomacromolecules</title>
+			<authors>
+				<author>P Vermette</author>
+				<author>H Griesser</author>
+				<author>P Kambouris</author>
+				<author>L Meagher</author>
+			</authors>
+			<date>2004</date>
+		</reference>
+		<reference>
+			<title>Nat. Commun</title>
+			<authors>
+				<author>S Li</author>
+			</authors>
+			<date>2022</date>
+		</reference>
+		<reference>
+			<title>Biochimica et Biophysica Acta (BBA) -Biomembranes</title>
+			<authors>
+				<author>K Halling</author>
+				<author>J Slotte</author>
+			</authors>
+			<date>2004</date>
+		</reference>
+		<reference>
+			<title>Biochimica et Biophysica Acta (BBA) -Biomembranes</title>
+			<authors>
+				<author>S Lopez</author>
+			</authors>
+			<date>2014</date>
+		</reference>
+		<reference>
+			<title>Nano Lett</title>
+			<authors>
+				<author>A Thatte</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+		<reference>
+			<title>J. Controlled Release</title>
+			<authors>
+				<author>N Pardi</author>
+			</authors>
+			<date>2015</date>
+		</reference>
+		<reference>
+			<title>Pharm. Res</title>
+			<authors>
+				<author>J Di</author>
+			</authors>
+			<date>2022</date>
+		</reference>
+		<reference>
+			<title>BioRxiv</title>
+			<authors>
+				<author>S Omo-Lamai</author>
+				<author>Y Wang</author>
+				<author>M Patel</author>
+				<author>E.-O Essien</author>
+				<author>M Shen</author>
+				<author>A Majumdar</author>
+				<author>C Espy</author>
+				<author>J Wu</author>
+				<author>B Channer</author>
+				<author>M Tobin</author>
+				<author>S Murali</author>
+				<author>T Papp</author>
+				<author>R Maheshwari</author>
+				<author>L Wang</author>
+				<author>L Chase</author>
+				<author>M Zamora</author>
+				<author>M Arral</author>
+				<author>O Marcos-Contreras</author>
+				<author>J Myerson</author>
+				<author>C Hunter</author>
+				<author>A Tsourkas</author>
+				<author>V Muzykantov</author>
+				<author>I Brodsky</author>
+				<author>S Shin</author>
+				<author>K Whitehead</author>
+				<author>P Gaskill</author>
+				<author>D Discher</author>
+				<author>H Parhiz</author>
+				<author>J Brenner</author>
+			</authors>
+			<date>2024-04-18</date>
+		</reference>
+		<reference>
+			<title>Biomaterials</title>
+			<authors>
+				<author>K Kauffman</author>
+			</authors>
+			<date>2016</date>
+		</reference>
+		<reference>
+			<title>International Immunopharmacology</title>
+			<authors>
+				<author>S Singh</author>
+				<author>D Anshita</author>
+				<author>V Ravichandiran</author>
+			</authors>
+			<date>2021</date>
+		</reference>
+		<reference>
+			<title>Pharmaceutics</title>
+			<authors>
+				<author>R Gambaro</author>
+			</authors>
+			<date>2024</date>
+		</reference>
+		<reference>
+			<title>Bioengineering &amp; Translational Medicine</title>
+			<authors>
+				<author>M Kim</author>
+			</authors>
+			<date>2023</date>
+		</reference>
+	</references>
+	<reference_dois>
+		<number>DOI-10.1016/j.matt.2020.09.020</number>
+		<number>DOI-10.1038/s41578-021-00358-0</number>
+		<number>DOI-10.1371/journal.pbio.3002105</number>
+		<number>DOI-10.1016/j.molmed.2021.03.003</number>
+		<number>DOI-10.1002/smll.202303568</number>
+		<number>DOI-10.1016/j.jconrel.2024.05.036</number>
+		<number>DOI-10.1021/jacs.2c12893</number>
+		<number>DOI-10.1016/j.bioactmat.2023.11.014</number>
+		<number>DOI-10.1073/pnas.2307810121</number>
+		<number>DOI-10.1038/s41586-024-08291-2</number>
+		<number>DOI-10.1038/s44222-023-00040-w</number>
+		<number>DOI-10.1002/smll.202300852</number>
+		<number>DOI-10.1016/j.addr.2020.09.006</number>
+		<number>DOI-10.1038/s41572-023-00417-6</number>
+		<number>DOI-10.1038/s41565-020-0669-6</number>
+		<number>DOI-10.1021/acs.nanolett.0c01386</number>
+		<number>DOI-10.1016/j.jconrel.2021.10.031</number>
+		<number>DOI-10.1002/adma.202312026</number>
+		<number>DOI-10.1016/j.scitotenv.2024.172240</number>
+		<number>DOI-10.1016/j.addr.2022.114416</number>
+		<number>DOI-10.1016/j.jconrel.2019.12.003</number>
+		<number>DOI-10.1126/sciadv.aaz4316</number>
+		<number>DOI-10.1073/pnas.2104826118</number>
+		<number>DOI-10.1038/s41467-017-02588-9</number>
+		<number>DOI-10.1016/j.apsb.2019.02.010</number>
+		<number>DOI-10.1002/smll.202203070</number>
+		<number>DOI-10.1002/mabi.201900105</number>
+		<number>DOI-10.1002/anie.202013927</number>
+		<number>DOI-10.1021/acsnano.2c11904</number>
+		<number>DOI-10.1016/j.xphs.2022.11.026</number>
+		<number>DOI-10.1016/j.ces.2024.120693</number>
+		<number>DOI-10.1038/s41467-020-14527-2</number>
+		<number>DOI-10.1039/D0BM01947J</number>
+		<number>DOI-10.1021/jacs.9b03927</number>
+		<number>DOI-10.1021/la702382d</number>
+		<number>DOI-10.1021/acs.analchem.9b00250</number>
+		<number>DOI-10.1021/bm049941k</number>
+		<number>DOI-10.1038/s41467-022-33157-4</number>
+		<number>DOI-10.1016/j.bbamem.2004.05.006</number>
+		<number>DOI-10.1016/j.bbamem.2014.01.007</number>
+		<number>DOI-10.1021/acs.nanolett.3c02573</number>
+		<number>DOI-10.1016/j.jconrel.2015.08.007</number>
+		<number>DOI-10.1007/s11095-022-03166-5</number>
+		<number>DOI-10.1101/2024.04.16.589801</number>
+		<number>DOI-10.1016/j.biomaterials.2016.09.006</number>
+		<number>DOI-10.1016/j.intimp.2021.107598</number>
+		<number>DOI-10.3390/pharmaceutics16060771</number>
+		<number>DOI-10.1002/btm2.10556</number>
+	</reference_dois>
+</document>

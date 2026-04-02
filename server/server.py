@@ -62,8 +62,8 @@ def upload():
         grobid_info = grobid_info,
         image_path  = image_path,
     )
-    XML_OUT_PATH = f"{XML_OUT_PATH}/{os.path.splitext(filename)[0]}.xml"
-    save_xml(xml_string, XML_OUT_PATH)
+    final_xml_name = f"{XML_OUT_PATH}/{os.path.splitext(filename)[0]}.xml"
+    save_xml(xml_string, final_xml_name)
 
     upload_result = upload_xml(xml_string, CP_URL, CP_USER, CP_PASS)
     if upload_result["success"]:

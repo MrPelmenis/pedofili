@@ -1,8 +1,17 @@
-PEDOFIILI
-policy pieciniit lai ir labaask search 
-lai labaaks viewing
-lai var salikt direktorijaa
-apskatit vai bildes var atrast
-<image><image_anotation></image_anotation></image>
-mos pasu bildi
-DOI no pdf
+PEDOFIILI TODO 2:
+
+Smukaks interface + tas ka uz katru .pdf ir viens http requests lai var smuki to paraadiit bet still kip vairaaki faili :D
+
+Pasmucinaat servera kodu lai nav fake zinas + mos silencot zinas no piem pdf2doi
+
+Ja var atrast no bildes:
+imge/image anotaion lai var grobid dabuut info no bildes + mekleesaan
+
+So autoru DOI nummuri..
+
+
+
+references charts savstarpejos linkus
++
+tas pats ar autoriem, autori katram rakstam mafijas kip
+

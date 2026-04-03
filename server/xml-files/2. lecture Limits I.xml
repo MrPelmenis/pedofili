@@ -1,0 +1,266 @@
+<document>
+	<file>./pdf-files/2. lecture Limits I.pdf</file>
+	<title>2. lecture Limits I</title>
+	<date>Unknown</date>
+	<doi_number/>
+	<img_preview_path>./pdf-preview-images/2. lecture Limits I.jpeg</img_preview_path>
+	<authors/>
+	<abstract/>
+	<methods/>
+	<full_text>Prof. Inese Bula
+University of Latvia
+Faculty of Physics, Mathematics and Optometry
+Lecture Notes
+«Matemātiskā analīze I»
+CALCULUS I
+Doc. Līga Zariņa
+University of Latvia
+Faculty of Computing
+
+Dr. Līga Zariņa
+Researcher
+University of Latvia
+Laboratory for Perceptual and Cognitive Systems
+at the Faculty of Computing
+Raiņa bulv 19, room 301
+E-mail: liga.zarina@lu.lv - please, write to arrange consultations if needed
+Phone: +371 28622755
+
+LECTURE 2.
+LIMITS I
+Intuitive understanding of the limit
+Intuitive definition of the limit
+Intervals and neighbourhoods
+Precise definition of the limit
+2. Homework
+
+Limits
+Calculus is the study of limits.
+The question: What happens to the function f(x) as x gets close to come
+constant c?
+Problems leading to limit concept
+- Object steadly moves forward and we know its position at any given
+time. We denote the position at time t by s(t). How fast is the object
+moving at time t=1?
+𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒
+We can use: 𝑠𝑝𝑒𝑒𝑑 =
+𝑡𝑖𝑚𝑒
+This is average speed over the interval, but we do not know wheather
+the speed is constant over the interval. We should consider average
+speed over smaller and smaller intervals, thus – talk about limit of the
+average speed.
+
+Limits
+- Area of the circle. We cannot calculate a precise area of the circle,
+but we can calculate the area of a regular polygon with n sies. By
+taking regular polygon with more and more sides – we are able to
+approximate the area of a circle to any desired level of accuracy. The
+area of the circle is the limit of the areas of the inscribed polygons as
+n increases without bond.
+- If consider graph y=f(x) for 𝑎 ≤ 𝑥 ≤ 𝑏 that is curved. We can find
+numerous points along the curve and connect them with line
+segments. If we add up the lengths of these line segments – we
+should get a sum that is approximately the length of the curve (thai is
+limit).
+
+Intuitive understanding of the limit
+x f(x)
+𝑥 3 − 8 2.2 13.24
+𝑓 𝑥 =
+2.1 12.61
+𝑥 − 2
+2.01 12.0601
+- Not defined at 𝑥 = 2 2.001 12.006001
+- 𝐷𝑜𝑚(𝑓) = (−∞, 2) ∪ (2, +∞) 2.0001 12.00060001
+↓ ↓
+We can, however, still ask what is happening 2 ?
+to f(x) as x approaches 2? ↑ ↑
+1.9999 11.99940001
+1.999 11.994001
+1.99 11.9401
+1.9 11.41
+1.8 10.84
+3
+𝑥 − 8
+𝑥3 − 8 (𝑥 − 2)(𝑥2 + 2𝑥 + 4)
+lim = 12 lim = lim = lim 𝑥2 + 2𝑥 + 4 = 22 + 4 + 4 = 12
+𝑥→2 𝑥 − 2 𝑥→2 𝑥 − 2 𝑥→2 (𝑥 − 2) 𝑥→2
+This is read «the limit as x approaches 1 of (x3-8)/(x-2) is 12»
+
+Intuitive definition of the limit
+Lets say that lim 𝑓 𝑥 = 𝐿 means that when x is near but different from
+𝑥→𝑐
+c then f(x) is near L.
+- We do not require anything at c. (The function even do not need to
+be defined at c)
+- The notion of limit is associated with the behavior of a function near
+c, not at c
+What does near means? How near is near?
+
+Intervals and neighbourhoods
+Interval is a set of real numbers with the property that any number that lies
+between two numbers in the set is also included in the set.
+There are several kinds of intervals.
+Open interval – not including the end points (𝑥: 𝑎 &lt; 𝑥 &lt; 𝑏), (a,b), ]a,b[
+Closed interval – includes the end points (𝑥: 𝑎 ≤ 𝑥 ≤ 𝑏), [a,b]
+If 𝑎 &lt; 𝑏
+−∞; 𝑎 = 𝑥│𝑥 ∈ ℝ &amp; 𝑥 &lt; 𝑎
+(−∞; 𝑎- = 𝑥│𝑥 ∈ &amp;ℝ ≤ 𝑥, 𝑎
+𝑎; 𝑏 = 𝑥│𝑥 ∈ ℝ &amp; 𝑎 &lt; 𝑥 &lt; 𝑏
+,𝑎; 𝑏) = 𝑥│𝑥 ∈ ℝ &amp; 𝑎 ≤ 𝑥 &lt; 𝑏
+(𝑎; 𝑏- = 𝑥│𝑥 ∈ ℝ&amp; 𝑎 &lt; 𝑥 ≤ 𝑏
+,𝑎; 𝑏- = 𝑥│𝑥 ∈ ℝ &amp; 𝑎 ≤ 𝑥 ≤ 𝑏
+,𝑏; +∞) = 𝑥│𝑥 ∈ ℝ &amp; 𝑏 ≤ 𝑥
+𝑏; −∞ = 𝑥│𝑥 ∈ ℝ &amp; 𝑏 &lt; 𝑥
+ℝ = (−∞; +∞)
+
+Intervals and neighbourhoods
+We follow the tradition in using Greek letters 𝜀 (epsilon) and 𝛿 (delta) to stand
+for (usually small) arbitrary positive numbers.
+The set 𝔄 𝑥 , 𝛿 = 𝑥 − 𝛿; 𝑥 + 𝛿 = 𝑥 𝑥 − 𝑥 &lt; 𝛿+ is called 𝛿 −
+0 0 0 0
+𝑛𝑒𝑖𝑔𝑕𝑏𝑜𝑢𝑟𝑕𝑜𝑜𝑑 of the 𝑥 .
+0
+A deleted neighbourhood of a point 𝑥 (sometimes called a punctured
+0
+neighbourhood) is a neighbourhood of p, without 𝑥 .
+0
+The set 𝔄 𝑥 , 𝛿 = 𝑥 − 𝛿; 𝑥 + 𝛿 *𝑥 + = 𝔄 𝑥 , 𝛿 *𝑥 + = 𝑥 0 &lt; 𝑥 − 𝑥 &lt;
+0 0 0 0 0 0 0
+𝛿+ is called deleted 𝛿 − 𝑛𝑒𝑖𝑔𝑕𝑏𝑜𝑢𝑟𝑕𝑜𝑜𝑑 of the 𝑥 .
+0
+The concept of deleted neighbourhood occurs in the definition of the limit of a
+function.
+
+Precise definition of the limit
+To say that lim 𝑓 𝑥 = 𝐿 («The limit as x approaches c of f(x) is L») means that for
+𝑥→𝑐
+each given 𝜀 &gt; 0 (no matter how small) there is a corresponding 𝛿 &gt; 0 such that
+𝑓 𝑥 − 𝐿 &lt; 𝜀, provided that 0 &lt; 𝑥 − c &lt; δ; that is,
+0 &lt; 𝑥 − 𝑐 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐿 &lt; 𝜀
+or
+𝑥 ∈ 𝔄 𝑐, 𝛿 ⇒ 𝑓 𝑥 ∈ 𝔄 𝐿, 𝜀 .
+(for each 𝑥 ∈ 𝐷𝑜𝑚 𝑓 )
+(«The limit as x approaches c of f(x) is L» (lim 𝑓 𝑥 = 𝐿)) ⇔
+𝑥→𝑐
+(∀𝜀 &gt; 0 ∃𝛿 &gt; 0 ∀𝑥 ∈ 𝐷𝑜𝑚 𝑓 0 &lt; 𝑥 − 𝑐 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐿 &lt; 𝜀 ).
+
+Precise definition of the limit
+lim 𝑓 𝑥 = 𝐿 ⇔
+𝑥→𝑐
+∀𝜀 &gt; 0 ∃𝛿 &gt; 0 ∀𝑥 ∈ 𝐷𝑜𝑚 𝑓 0 &lt; 𝑥 − 𝑥 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐴 &lt; 𝜀
+0
+𝛿 ≤ min *𝛿 ; 𝛿 +
+1 2
+
+Precise definition of the limit
+lim 𝑓 𝑥 = 𝐿 ⇔
+𝑥→𝑐
+∀𝜀 &gt; 0 ∃𝛿 &gt; 0 ∀𝑥 ∈ 𝐷𝑜𝑚 𝑓 0 &lt; 𝑥 − 𝑥 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐴 &lt; 𝜀
+0
+Example
+If 𝑓 𝑥 = 𝑐 ∈ ℝ
+then lim 𝑓 𝑥 = 𝑐
+𝑥→𝑥
+0
+This example is atypical, because we do not need to care about 𝜀 &gt; 0.
+𝑓 𝑥 − 𝑐 = 𝑐 − 𝑐 = 0,
+and it is smaller than any positive 𝜀.
+- for 𝛿 we can take any positive number
+
+Precise definition of the limit
+Example
+Proof that 𝒍𝒊𝒎(𝟑𝒙 + 𝟐) = 𝟖 .
+𝒙→𝟐
+We have to proof that
+∀𝜀 &gt; 0 ∃𝛿 &gt; 0 ∀𝑥 ∈ ℝ 0 &lt; 𝑥 − 2 &lt; 𝛿 ⇒ 3𝑥 + 2 − 8 &lt; 𝜀 .
+(Let 𝜀 be any positive number. We must produce 𝛿 such that
+0 &lt; 𝑥 − 2 &lt; 𝛿 ⇒ 3𝑥 + 2 − 8 &lt; 𝜀)
+Consider the inequality on the right (transform by using equivalent inequalities).
+3𝑥 + 2 − 8 &lt; ℇ,
+3𝑥 − 6 &lt; ℇ,
+3 𝑥 − 2 &lt; ℇ,
+ℇ
+𝑥 − 2 &lt; .
+3
+𝜀
+From this follows: if 0 &lt; 𝛿 ≤ , then 3𝑥 + 2 − 8 &lt; ℇ
+3
+𝜀
+Now we see how to choose 𝛿, that is δ = . Of course any smaller δ would work.
+3
+We have prooved that
+𝜀
+∀𝜀 &gt; 0 ∃0 &lt; 𝛿 = 𝛿 𝜀 = , 𝑥 − 2 &lt; 𝛿 ⇒ 3𝑥 + 2 − 8 &lt; 𝜀-.
+3
+
+Precise definition of the limit
+The proof can be divided in two parts:
+1) Analysis to find valid 𝛿
+2) Demonstration that the selected 𝛿 meets all requirements of the limit
+definition
+Usually from the analysis part the scheme of the proof is clear and so it
+is mostly limited to analysis.
+In order to avoid complicated algebraic evaluations, there is a limit
+theory, which we will talk about in the next lecture.
+
+Precise definition of the limit
+One-sided limits
+Right-hand limit
+To say that 𝑙𝑖𝑚 𝑓(𝑥) = 𝐿 means that for each 𝜀 &gt; 0 there is a corresponding
+𝑥→𝑐+
+𝛿 &gt; 0 such that
+0 &lt; 𝑥 − 𝑐 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐿 &lt; 𝜀
+( 𝑙𝑖𝑚 𝑓(𝑥) = 𝐿) ⇔
+𝑥→𝑐+
+(∀𝜀 &gt; 0∃𝛿 &gt; 0∀𝑥 ∈ 𝐷𝑜𝑚 𝑓 0 &lt; 𝑥 − 𝑐 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐿 &lt; 𝜀 )
+Left-hand limit
+To say that 𝑙𝑖𝑚 𝑓(𝑥) = 𝐿 means that for each 𝜀 &gt; 0 there is a corresponding
+𝑥→𝑐−
+𝛿 &gt; 0 such that
+0 &lt; 𝑐 − 𝑥 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐿 &lt; 𝜀
+( 𝑙𝑖𝑚 𝑓(𝑥) = 𝐿) ⇔
+𝑥→𝑐−
+(∀𝜀 &gt; 0∃𝛿 &gt; 0∀𝑥 ∈ 𝐷𝑜𝑚 𝑓 0 &lt; 𝑐 − 𝑥 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐿 &lt; 𝜀 )
+
+Precise definition of the limit
+Example
+−1, 𝑥 &lt; 0
+𝑠𝑔𝑛 𝑥 = 0, 𝑥 = 0
+1, 𝑥 &gt; 0
+We are interested in point x=0.
+𝑙𝑖𝑚 𝑠𝑔𝑛 𝑥 = 1 𝑎𝑛𝑑 𝑙𝑖𝑚 𝑠𝑔𝑛 𝑥 = −1,
+𝑥→0+ 𝑥→0−
+but 𝑠𝑔𝑛 0 = 0.
+Theorem
+(𝑙𝑖𝑚 𝑓(𝑥) = 𝐿) ⇔ ( 𝑙𝑖𝑚 𝑓 𝑥 = 𝐿 = 𝑙𝑖𝑚 𝑓(𝑥))
+𝑥→𝑐 𝑥→𝑐− 𝑥→𝑐+
+
+Precise definition of the limit
+Example
+We have grapg of function f(x).
+Empty dots – do not belong to the graph, fille dots – belong to the graph.
+Find:
+
+HOMEWORK 2
+3. Please, in accordance with the limit definition proof that
+2
+2𝑥 − 5𝑥 − 12
+lim = 11
+𝑥→4 𝑥 − 4
+𝜀
+Answer: 0 &lt; 𝛿 ≤
+2
+2
+𝑥 , 𝑥 ≤ 0
+4. Please, sketch the graph of the function: 𝑓 𝑥 = 𝑥, 0 &lt; 𝑥 &lt; 1 ,
+2
+1 + 𝑥 , 𝑥 ≥ 1
+And find the limits if they exist:
+a) lim 𝑓(𝑥), b) lim 𝑓(𝑥), c) lim 𝑓(𝑥), d) lim 𝑓(𝑥)
+𝑥→0 𝑥→1 𝑥→1− 𝑥→1+
+Reading: D. Varberg, E. J. Purcell, S. E. Rigdon Calculus. 9th Edition,
+Prentice-Hall, Inc.m, 2014, p.55 – 67.
+Chapter 1. Sections 1.1. and 1.2.</full_text>
+	<references/>
+</document>

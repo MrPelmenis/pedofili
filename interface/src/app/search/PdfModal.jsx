@@ -8,8 +8,11 @@ export default function PdfModal({ modal, modalStage, onClose }) {
   useEffect(() => {
     if (modal) document.body.style.overflow = "hidden";
     else document.body.style.overflow = "";
+    const handler = (e) => { if (e.key === "Escape") onClose(); };
+    document.addEventListener("keydown", handler);
+    return () => document.removeEventListener("keydown", handler);        
     return () => { document.body.style.overflow = ""; };
-  }, [modal]);
+  }, [modal, onClose]);
 
   if (!modal) return null;
 

@@ -2,7 +2,24 @@ import re
 import os
 from xml.etree.ElementTree import Element, SubElement, tostring
 import xml.dom.minidom
+import pdfplumber
 
+#siis divas ir gadijumaa ja acc kkads random vajadziigs pdf tad prosta extract text ar jau zinamiem lidzekliem
+def extract_fallback_text(pdf_path: str) -> str:
+    text = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            page_text = page.extract_text()
+            if page_text:
+                text.append(page_text)
+    return "\n\n".join(text)
+
+
+def is_bad_parse(grobid_info: dict | None) -> bool:
+    if not grobid_info:
+        return True
+    g = grobid_info
+    return not g.get("title") and not g.get("authors") and not g.get("abstract")
 
 def strip_jats(text: str) -> str:
     if not text:

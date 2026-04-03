@@ -1,39 +1,27 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
-import NavLink from "./components/NavLink";
+import ConditionalHeader from "./ConditionalHeader";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
-});
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata = {
-  title: "Pdf Magic",
-  description: "upload and search",
+  title: "PDF Magic",
+  description: "Search and upload scientific literature",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+        <link href="https://lib.chartizer.com/chartizer.css" rel="stylesheet" />
+        <script src="https://lib.chartizer.com/chartizer.js" async />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <header style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "2rem",
-          padding: "1rem",
-        }}>
-          <NavLink href="/search">Search</NavLink>
-          <NavLink href="/chart">Chart</NavLink>
-          <NavLink href="/upload">Upload</NavLink>
-        </header>
-
+      <body className={`${poppins.className} antialiased`}>
+        <ConditionalHeader />
         {children}
       </body>
     </html>

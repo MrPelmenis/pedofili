@@ -1,0 +1,197 @@
+<document>
+	<file>./pdf-files/3. lecture Limits II.pdf</file>
+	<title>3. lecture Limits II</title>
+	<date>Unknown</date>
+	<doi_number/>
+	<img_preview_path>./pdf-preview-images/3. lecture Limits II.jpeg</img_preview_path>
+	<authors/>
+	<abstract/>
+	<methods/>
+	<full_text>Prof. Inese Bula
+University of Latvia
+Faculty of Physics, Mathematics and Optometry
+Lecture Notes
+«Matemātiskā analīze I»
+CALCULUS I
+Doc. Līga Zariņa
+University of Latvia
+Faculty of Computing
+
+Dr. Līga Zariņa
+Researcher
+University of Latvia
+Laboratory for Perceptual and Cognitive Systems
+at the Faculty of Computing
+Raiņa bulv 19, room 301
+E-mail: liga.zarina@lu.lv - please, write to arrange consultations if needed
+Phone: +371 28622755
+
+LECTURE 3.
+LIMITS II
+Uniqueness theorem for limits
+Main limit theorem (Limit properties)
+Squeeze theorem
+3. Homework
+
+Uniqueness theorem for limits
+Theorem 3.1.
+If the limit of function f(x) exists at point c, then it is unique.
+Proof (by contradiction)
+Lets say lim 𝑓(𝑥) = A ≠ 𝐵 = lim 𝑓(𝑥)
+𝑥→𝑐 𝑥→𝑐
+Lets say 𝐴 − 𝐵 = 2𝜀 &gt; 0
+From existance of lim 𝑓(𝑥) = A follows that
+𝑥→𝑐
+𝜀 &gt; 0∃𝛿 &gt; 0𝑥 ∈ 𝐷𝑜𝑚 𝑓 0 &lt; 𝑥 − 𝑐 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐴 &lt; 𝜀 .
+1 1
+From existance of lim 𝑓(𝑥) = B follows that
+𝑥→𝑐
+𝜀 &gt; 0∃𝛿 &gt; 0𝑥 ∈ 𝐷𝑜𝑚 𝑓 0 &lt; 𝑥 − 𝑐 &lt; 𝛿 ⇒ 𝑓 𝑥 − 𝐵 &lt; 𝜀 .
+2 1
+Lets select 𝛿 = min 𝛿 , 𝛿 .
+1 2
+Then ∀𝑥 ∈ 𝐷𝑜𝑚(𝑓)[0 &lt; 𝑥 − 𝑐 &lt; 𝛿 ⇒
+2𝜀 = 𝐴 − 𝐵 = 𝐴 − 𝑓 𝑥 + 𝑓 𝑥 − 𝐵 ≤
+≤ 𝑓 𝑥 − 𝐴 + 𝑓 𝑥 − 𝐵 &lt; 𝜀 + 𝜀 = 2𝜀].
+The obtained contradiction 2𝜀 &lt; 2𝜀 proves that the assumption is wrong.
+The use of the uniqueness theorem for limits is usually associated with the ability to prove that the
+function f(x) does not exist limit when x approaches the point c. Note that if we obtain different results
+after calculating limit at the same point, then least one error is made.
+
+Uniqueness theorem for limits
+Theorem 3.2.
+If 𝑋 ⊆ 𝑌 and lim 𝑓(𝑥) = A, then lim 𝑓(𝑥) = A
+𝑥→𝑐 𝑥→𝑐
+𝑥∈𝑌 𝑥∈𝑋
+Proof
+Lets arbitrary choose 𝜀 &gt; 0, then according to given: ∃𝛿 &gt; 0 such that
+∀𝑥 ∈ 𝑌 ∩ 𝐷𝑜𝑚 𝑓 [ x − c &lt; δ ⇒ 𝑓 𝑥 − 𝐴 &lt; 𝜀].
+Then also ∀𝑥 ∈ 𝑋 ∩ 𝐷𝑜𝑚 𝑓 [ x − c &lt; δ ⇒ 𝑓 𝑥 − 𝐴 &lt; 𝜀].
+Thus,
+lim 𝑓(𝑥) = A.
+𝑥→𝑐
+𝑥∈𝑋
+
+Uniqueness theorem for limits
+Example
+Lets consider Dirichlet Function
+As the limit from constant is constant, then
+𝑙𝑖𝑚 𝐷(𝑥) = −1, 𝑏𝑢𝑡 𝑙𝑖𝑚 𝐷(𝑥) = 1
+𝑥→0 𝑥→0
+𝑥∈ℚ 𝑥∉ℚ
+In accordance with theorem 3.2. we can say:
+If 𝑙𝑖𝑚 𝐷(𝑥)exist, then
+𝑥→0
+𝑙𝑖𝑚 𝐷(𝑥)= 𝑙𝑖𝑚 𝐷(𝑥) = −1
+𝑥→0 𝑥→0
+𝑥∈ℚ
+Similarly we san say:
+𝑙𝑖𝑚 𝐷(𝑥)= 𝑙𝑖𝑚 𝐷(𝑥) = 1
+𝑥→0 𝑥→0
+𝑥∉ℚ
+In turn, the theorem 3.1. makes us conclude
+that 𝑙𝑖𝑚 𝐷(𝑥) does nit exist.
+𝑥→0
+
+Main limit theorem (Limit properties)
+Proving the existence an values of limits using definition is both time consuming
+and difficult. We can use several theorems in turn.
+Main Limit Theorem
+If lim 𝑓(𝑥) = 𝐴, lim 𝑔(𝑥) = 𝐵, 𝑛 ∈ ℤ, 𝑛 &gt; 0, 𝑘 ∈ ℝ − 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡, then
+𝑥→𝑐 𝑥→𝑐
+1) lim 𝑘 = 𝑘
+𝑥→𝑐
+2) lim 𝑥 = c
+𝑥→𝑐
+3) lim𝑘 𝑓 𝑥 = 𝑘 lim 𝑓(𝑥) = 𝑘𝐴
+𝑥→𝑐 𝑥→𝑐
+4) lim 𝑓 𝑥 + 𝑔 𝑥 = lim 𝑓(𝑥) + lim 𝑔(𝑥) = 𝐴 + 𝐵
+𝑥→𝑐 𝑥→𝑐 𝑥→𝑐
+5) lim 𝑓 𝑥 − 𝑔 𝑥 = lim 𝑓(𝑥) − lim 𝑔(𝑥) = 𝐴 − 𝐵
+𝑥→𝑐 𝑥→𝑐 𝑥→𝑐
+6) lim 𝑓 𝑥 𝑔 𝑥 = lim 𝑓(𝑥) ∙ lim 𝑔(𝑥) = 𝐴𝐵
+𝑥→𝑐 𝑥→𝑐 𝑥→𝑐
+lim 𝑓 𝑥
+𝑓 𝑥 𝐴
+7) 𝑖𝑓 lim 𝑔(𝑥) = 𝐵 ≠ 0, 𝑡𝑕𝑒𝑛 lim = 𝑥→𝑐 =
+𝑥→𝑐 𝑔 𝑥 lim 𝑔 𝑥 𝐵
+𝑥→𝑐
+𝑥→𝑐
+8) lim[𝑓 𝑥 ]
+𝑛
+= [lim 𝑓(𝑥)]
+𝑛
+𝑥→𝑐 𝑥→𝑐
+9) lim 𝑛 𝑓(𝑥) = 𝑛 lim 𝑓(𝑥) , 𝑝𝑟𝑜𝑣𝑖𝑑𝑒𝑑 lim 𝑓(𝑥) &gt; 0 𝑤𝑛𝑒𝑛 𝑛 𝑖𝑠 𝑒𝑣𝑒𝑛
+𝑥→𝑐 𝑥→𝑐 𝑥→𝑐
+Read as, e.g., «the limit of the sum is the sum of the limits»
+
+Main limit theorem (Limit properties)
+Substitution theorem
+If f is a polynomial function or a rational function, then lim 𝑓(𝑥) = f(c)
+𝑥→𝑐
+provided f(c) is defined.In the case of rational function, this means that the value
+of the denominator at c is not zero.
+Example
+1.
+2.
+Such situations are called indeterminate forms of limits. By using algebraic
+transformations and arithmetic operations with limits, the indeterminate form
+can be diverted. In this case wecan shorten because c = 1.
+
+Main limit theorem (Limit properties)
+Example
+3.
+(We use multiplication with related expressions)
+
+Main limit theorem (Limit properties)
+The main limit theorem remains true for both left- and right-hand limits.
+Example
+It means that does not exist, because one-sided limits
+differ.
+
+Squeeze theorem
+Let f, g, and h be functions statisfiying 𝑓 𝑥 ≤ g x ≤ h x for all x
+near c, except possibly at x . If lim 𝑓(𝑥) = lim 𝑕(𝑥) = 𝐿, then
+0c
+𝑥→𝑐 𝑥→𝑐
+lim 𝑔(𝑥) = 𝐿.
+𝑥→𝑐
+c
+https://tex.stackexchange.com/questions/397786/tikz-illustration-for-the-squeeze-theorem
+
+Squeeze theorem
+1
+Example. Lets find lim 𝑠𝑖𝑛 !
+𝑥→0 𝑥
+Separately taking the limit from the first multiplier is 0, but the second – does
+not exist. But we cannot judge it in such way – the individual limits may not
+exist, but the limit of prouct can exist. It is also the case here. Note that
+1
+0 ≤ 𝑥𝑠𝑖𝑛 ≤ 𝑥 ∙ 1 = 𝑥 .
+𝑥
+As lim 0 = 0 𝑎𝑛𝑑 lim 𝑥 = 0, the according to the squeeze theorem
+𝑥→0 𝑥→0
+1
+lim|𝑥 𝑠𝑖𝑛 | = 0.
+𝑥→0 𝑥
+It is easy to proof that
+(lim 𝑓(𝑥) = 0) ⇔ (lim 𝑓(𝑥) = 0) .
+𝑥→𝑐
+𝑥→𝑐
+1
+Thus, lim𝑥 𝑠𝑖𝑛 = 0
+𝑥→0 𝑥
+
+HOMEWORK 3
+5. Please, find the limits:
+3 4
+Answers: a) , 𝑏)
+7 3
+6. Please, find the one-sided limits:
+Answers: a) 3, 𝑏) 2, 𝑐)1, 𝑑)𝑑𝑜𝑒𝑠 𝑛𝑜𝑡 𝑒𝑥𝑖𝑠𝑡
+Reading: D. Varberg, E. J. Purcell, S. E. Rigdon Calculus. 9th Edition,
+Prentice-Hall, Inc.m, 2014, p.68 – 73.
+Chapter 1. Section 1.3.</full_text>
+	<references/>
+</document>

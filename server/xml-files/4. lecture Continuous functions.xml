@@ -1,0 +1,319 @@
+<document>
+	<file>./pdf-files/4. lecture Continuous functions.pdf</file>
+	<title>4. lecture Continuous functions</title>
+	<date>Unknown</date>
+	<doi_number/>
+	<img_preview_path>./pdf-preview-images/4. lecture Continuous functions.jpeg</img_preview_path>
+	<authors/>
+	<abstract/>
+	<methods/>
+	<full_text>Prof. Inese Bula
+University of Latvia
+Faculty of Physics, Mathematics and Optometry
+Lecture Notes
+«Matemātiskā analīze I»
+CALCULUS I
+Doc. Līga Zariņa
+University of Latvia
+Faculty of Computing
+
+Dr. Līga Zariņa
+Researcher
+University of Latvia
+Laboratory for Perceptual and Cognitive Systems
+at the Faculty of Computing
+Raiņa bulv 19, room 418
+E-mail: liga.zarina@lu.lv - please, write to arrange consultations if needed
+Phone: +371 28622755
+
+LECTURE 4.
+CONTINUOUS FUNCTIONS
+Basic definitions
+Continuity of the elementary functions
+Points of discontinuity
+Properties of the continuous functions
+4. Homework
+
+Basic definitions
+In math an science, we use word continuous to describe process that goes on
+without abrupt changes.
+Our experiece leads us to assume that this is an essential feature of many natural
+processes.
+DEFINITION 4.1. (1st definition of the continuity, continuity at a point)
+Let f(x) be defined on an open interval containing 𝑥 . We say that f(x) is
+0
+continuous at 𝑥 if
+0
+lim 𝑓 𝑥 = 𝑓(𝑥 )
+0
+𝑥→𝑥
+0
+We mean by this definition to require three things:
+1. lim 𝑓 𝑥 exists,
+𝑥→𝑥
+0
+2. 𝑓 𝑥 exists (𝑥 is in the domain of f), and
+0 0
+3. lim 𝑓 𝑥 = 𝑓(𝑥 )
+0
+𝑥→𝑥
+0
+If any one of these three fails, then f(x) is discontinuous at 𝑥 .
+0
+
+Basic definitions
+∆𝑥 = 𝑥 − 𝑥 – change in x
+0
+∆𝑦 = 𝑓(𝑥) − (𝑥 ) – change in y (denotation: also ∆𝑓(𝑥 ))
+0 0
+Note that ∆𝑦 = 𝑓(𝑥) − 𝑓(𝑥 ) = 𝑓(𝑥 + ∆𝑥) − 𝑓(𝑥 ).
+0 0 0
+Thus, ∆𝑦 can be seen also as function of argument ∆𝑥.
+
+Basic definitions
+DEFINITION 4.2. (2nd definition of the continuity)
+We say that f(x) is continuous at 𝑥 if
+0
+lim ∆𝑦 = 0
+∆𝑥→0
+DEFINITION 4.3. We say that function u(x) is infinitely-small function as x
+approaches x if
+0
+lim 𝑢(𝑥) = 0
+𝑥→𝑥
+0
+The second definition of the continuity shows that ∆𝑦(or ∆𝑓(𝑥 )) is infinitely-
+0
+small function as ∆𝑥 approaches 0. In such case, we can say that for infinitely-
+small change in argument ∆𝑥 at 𝑥 corresponds infinitely-small change in
+0
+function ∆𝑓(𝑥 ).
+0
+
+Basic definitions
+DEFINITION 4.4. We say that function f(x) is left continuous at 𝑥 if
+0
+lim 𝑓(𝑥) = 𝑓(𝑥 ). We say that function f(x) is right continuous at 𝑥 if
+0 0
+𝑥→𝑥 −
+0
+lim 𝑓(𝑥) = 𝑓(𝑥 ).
+0
+𝑥→𝑥 +
+0
+DEFINITION 4.5. (3rd definition of the continuity)
+We say that function f(x) is continuous at 𝑥 if function is left continuous at 𝑥
+0 0
+and right continous at 𝑥 .
+0
+4.1., 4.2. and 4.5. definitions are equivalent.
+We call function f(x) continuous in a set X (on an open interval), if f(x) is
+continuous in each point of the set X (of that interval). It is continuous on the
+closed interval [a,b] if it is continuous on (a,b), right continuous at a, and left
+continuous at b.
+
+Continuity of the elementary functions
+From main limit theorem we get a such theorem.
+Theorem 4.6. (Continuity under function operations)
+If functions f(x) and g(x) are continuous at 𝑥 , then so are kf(x), f(x)+g(x), f(x)-
+0
+𝑛
+g(x), f(x)*g(x), f(x)/g(x) (provided that 𝑔(𝑥 ) ≠ 0), and 𝑓(𝑥)(provided that
+0
+𝑓(𝑥 &gt; 0 if n is even).
+0
+Examples
+1.
+𝑓 𝑥 = 𝑐, 𝑐 − 𝑐𝑜𝑛𝑠𝑡, for each 𝑥 the lim 𝑓(𝑥) = 𝑐. That means that the
+0
+𝑥→𝑥
+0
+constant function is continous at every real number.
+2.
+𝑓 𝑥 = 𝑥, for each 𝑥 ∈ ℝ the lim 𝑓(𝑥) = 𝑥 . That means that the function
+0 0
+𝑥→𝑥
+0
+𝑓 𝑥 = 𝑥 is continous at every real number.
+
+Continuity of the elementary functions
+Since any rational function is obtained by adding, multiplying and dividing
+continuous functions f(x)=c and g(x)=x, then the rational function is continuous
+at any point in their domain.
+The sine, cosine, and 2 𝑥functions are continuous at every real number 𝑥 .
+0
+In general, a larger result is valid.
+Theorem 4.7.
+Any elementary function f(x) is continuous in its domain Dom(f).
+
+Continuity of the elementary functions
+Example
+Function 𝑦 = |𝑥| is continuous at every real number, even if it is not elementary
+function.
+𝑥, 𝑥 ≥ 0
+𝑥 =
+−𝑥, 𝑥 &lt; 0
+For 𝑥 &lt; 0, 𝑦 = −𝑥, a polynomial; for 𝑥 &gt; 0, 𝑦 = 𝑥, another polynomial.
+Both are continuous in their domains.
+lim (−𝑥) = 0 , lim 𝑥 = 0 , 𝑡𝑕𝑎𝑡 𝑖𝑠 lim |𝑥| = 0
+𝑥→0− 𝑥→0+ 𝑥→0
+Therefore, |x| is continuous at 0.
+We can see that |x| is continuous at every real number.
+
+Continuity of the elementary functions
+Theorem 4.8. (Composite limit theorem)
+If g(y) is continuous at a point 𝑦 and lim 𝑓 𝑥 = 𝑦 , then
+0 0
+𝑥→𝑥
+0
+lim 𝑔 ∘ 𝑓 𝑥 = 𝑔( lim 𝑓 𝑥 )
+𝑥→𝑥 𝑥→𝑥
+0 0
+Result
+If g(y) is continuous at a point 𝑦 , but f(x) is continuous at a point 𝑥 and
+0 0
+𝑓 𝑥 = 𝑦 , then composition of the functions 𝑔 ∘ 𝑓 𝑥 is continuous at 𝑥 .
+0 0 0
+Thus, we can also conclude: if g(y) is continuous at every real number, but f(x)
+is continuous in a set X, then 𝑔 ∘ 𝑓 𝑥 is continuous in the set X.
+Example
+𝑕 𝑥 = |𝑥 2 − 3𝑥 + 8| is continuous at every 𝑥 ∈ ℝ, because 𝑓 𝑥 =
+𝑥 𝑎𝑛𝑑 𝑔 𝑥 = 𝑥 2 − 3𝑥 + 8 are continuous functions. Thus their composition
+𝑕 𝑥 = 𝑓 𝑔 𝑥 = (𝑓 ∘ 𝑔)(𝑥) is continuous.
+
+Points of discontinuity
+We will consider classification of such points 𝑥 for which the deleted
+0
+neighbourhood 𝔄(𝑥 , 𝛿 ) includes infinite amount of points from function f(x)
+0 0
+domain Dom(f). (𝔄(𝑥 , 𝛿 ) ⊆ 𝐷𝑜𝑚(𝑓))
+0 0
+DEFINITION 4.9. The point 𝑥 is a point of discontinuity if 𝑥 ∉ 𝐷𝑜𝑚(𝑓) or
+0 0
+the function is not continuous at this point.
+If at the point of discontinuity 𝑥 exist one-sided limits, then such a point is
+0
+called discontinuity of the first kind (or jump discontinuity, step discontinuity).
+At this situation the difference lim 𝑓(𝑥) − lim 𝑓(𝑥) is called a jump at 𝑥 .
+0
+𝑥→𝑥 + 𝑥→𝑥 −
+0 0
+If the jump is 0, then the point of discontinuity 𝑥 is called removable point of
+0
+discontinuity. Otherwise the point of discontinuity is called nonremovable.
+If a point of discontinuity 𝑥 is not a discontinuity of the first kind, then it is
+0
+called discontinuity of the second kind (or essential discontinuity, infinite
+discontinuity).
+
+Points of discontinuity
+Examples
+Please, indicate the points of discontinuity!
+2
+2𝑥 − 1, 𝑥 ≤ 0
+1
+𝑦 = , 𝑦 = 𝑠𝑔𝑛 𝑥 (signum from x), and 𝑦 =
+𝑐𝑜𝑠𝑥, 𝑥 &gt; 0 𝑥
+1. discontinuity of the first kind with a jump 2, at 0 the function is continuous
+from left-hand side
+2. At 0 the function does not have one sided limits
+3. discontinuity of the second kind
+
+Points of discontinuity
+Examples
+Integer function 𝑥 is right continuous at every real number, even if at 𝑥 ∈ ℤ it
+0
+has discontinuity of the first kind (tha jump is 1).
+For function
+1, 𝑥 ≠ 0
+𝑦 = the point 0 is a removable
+−1, 𝑥 = 0
+point of discontinuity, as well as for function
+2
+𝑥 −8
+𝑦 = the point 2 is a removable
+𝑥−2
+point of discontinuity, even if the function is not
+Defined at this point.
+In turn, for Dirichlet Function all points are
+discontinuity of the second kind, even if domain
+of the function include every real number.
+
+Properties of the continuous functions
+DEFINITION 4.10. Lets say that 𝑥 ∈ 𝐷𝑜𝑚(𝑓) and 𝑆 ⊆ 𝐷𝑜𝑚(𝑓).
+0
+f(c) is called the greatest or maximum value (element) of function f in a set S if
+𝑓 𝑐 ≥ 𝑓 𝑥 for each 𝑥 ∈ 𝑆.
+f(c) is called the least or minimum value (element) of function f in a set S if
+𝑓 𝑐 ≤ 𝑓 𝑥 for each 𝑥 ∈ 𝑆.
+The maximal and minimal values of the function f in a set S are called extrema.
+Often the existence of maximum and minimum for function is dependant from
+the set S.
+1
+For example, for function 𝑓 𝑥 = in a set 𝑆 = (0; +∞) do not have
+𝑥
+extremum. However, if 𝑆 = 𝑎; 𝑏 , 𝑎 &gt; 0, then f(a) is maximum, but f(b) is
+minimum of the function f. In turn, if 𝑆 = (𝑎; 𝑏), then again the function f does
+not have extremum.
+
+Properties of the continuous functions
+The existence of extremum is dependant from the type of the function.
+If we consider discontinuous function
+2
+2𝑥 − 1. , 𝑥 ≤ 0
+𝑦 =
+𝑐𝑜𝑠𝑥, 𝑥 &gt; 0
+1
+then in a set 𝑆 = − ; 4 the function does not have maximum, but it has
+2
+minumum 𝑦 0 = 𝑦 𝜋 = −1.
+DEFINITION 4.11. Function f(x) is called bounded in a set 𝑋 ⊆ 𝐷𝑜𝑚(𝑓), if
+∃𝑀 &gt; 0∀𝑥 ∈ 𝐷𝑜𝑚 𝑓 𝑓 𝑥 &lt; 𝑀.
+Theorem 4.12. (Weierstrass theorem)
+In a closd interval [a;b] every continuous function is bounded. In this interval
+the function reaches its maximum and minimum.
+
+Properties of the continuous functions
+Theorem 4.13. (Cauchy)
+If a function is continuous in a closd interval [a;b], at one endpoint its value is
+positive, but in other – negative, then at least at one point inside the interval its
+value is 0.
+This theorem has simple geometris interpretation: if the values of the endpoints
+of the continuous function are with opposite signs, then at least at one point the
+graph crosses the Ox axis within the interval. At this point the value of the
+function is 0.
+In general, such a result is valid.
+Theorem 4.14. (Intermediate value theorem, Cauchy)
+Let f be a function defined on [a;b] and let W be a number between f(a) and f(b).
+If f is continuous on [a;b], then there is at least one number 𝑥 between a and b
+0
+such that 𝑓(𝑥 ) = 𝑊.
+0
+
+HOMEWORK 4
+7. Please, indicate at what points are the functions discontinuous and
+according which type. Please substantiate and sketch the graphs.
+1
+, 𝑥 &lt; 0
+𝑥−1
+a) 𝑦 =
+2
+(𝑥 + 1) , 0 ≤ 𝑥 &lt; 2
+2
+𝑥 − 3, 𝑥 &gt; 2
+1
+− , 𝑥 &lt; 0
+b) 𝑦 = 𝑥
+2
+5𝑥 − 𝑥 , 0 ≤ 𝑥
+|𝑥|
+8. Please, indicate if function 𝑔 𝑥 = is continuous at the given
+𝑥−1,5
+intervals [a;b]; if it is not – please, indicate at what points it is discontinuous
+and according which type.
+a) 𝑎; 𝑏 = [−1; −0,5], b) a; b = [1; 1,8], c) a; b = [2; 4] .
+Reading: D. Varberg, E. J. Purcell, S. E. Rigdon Calculus. 9th Edition,
+Prentice-Hall, Inc.m, 2014, p.82 – 92.
+Chapter 1. Section 1.6.</full_text>
+	<references/>
+</document>

@@ -1,0 +1,309 @@
+<document>
+	<file>./pdf-files/5.lecture Derivative I.pdf</file>
+	<title>5.lecture Derivative I</title>
+	<date>Unknown</date>
+	<doi_number/>
+	<img_preview_path>./pdf-preview-images/5.lecture Derivative I.jpeg</img_preview_path>
+	<authors/>
+	<abstract/>
+	<methods/>
+	<full_text>Prof. Inese Bula
+University of Latvia
+Faculty of Physics, Mathematics and Optometry
+Lecture Notes
+«Matemātiskā analīze I»
+CALCULUS I
+Doc. Līga Zariņa
+University of Latvia
+Faculty of Computing
+
+Dr. Līga Zariņa
+Researcher
+University of Latvia
+Laboratory for Perceptual and Cognitive Systems
+at the Faculty of Computing
+Raiņa bulv 19, room 418
+E-mail: liga.zarina@lu.lv - please, write to arrange consultations if needed
+Phone: +371 28622755
+
+LECTURE 5.
+DERIVATIVE
+Tangent line
+Instantaneous velocity
+Definition of the derivative
+Derivative and continuous functions
+Rules of finding derivatives
+Derivatives of the elementary functions
+5. Homework
+
+Tangent line
+Let P be a arbitrarily chosen point in a curve and let Q be a nearby movable point
+on that curve.
+DEFINITION 5.1. The line that goes through the points P and Q is called secant
+line.
+DEFINITION 5.2. The tangent line at P is the limiting position (if it exists) of
+the secant line as Q moves toward P along the curve and reaches it.
+P
+Q
+
+Tangent line
+Suppose that the curve is the graph of the equation 𝑦 = 𝑓(𝑥).
+Then P has coordinates (𝑥 , 𝑓 𝑥 ),
+0 0
+a nearby point Q has coordinates (𝑥 + ∆𝑥, 𝑓 𝑥 + ∆𝑥 ),
+0 0
+and the secant line through P and Q has slope
+𝑓 𝑥 + ∆𝑥 − 𝑓 𝑥 |𝑄𝑁|
+0 0
+𝑚 = =
+𝑠𝑒𝑐
+∆𝑥 |𝑃𝑁|
+The tangent line (if it exists) to the curve 𝑦 = 𝑓(𝑥) at the point P(𝑥 ,𝑓 𝑥 ) is that line
+0 0
+through P with slope
+𝑓 𝑥 + ∆𝑥 − 𝑓 𝑥
+0 0
+𝑚 = lim 𝑚 = lim
+𝑡𝑎𝑛 𝑠𝑒𝑐
+∆𝑥→0 ∆𝑥→0 ∆𝑥
+To find the equation of the tangent line
+𝑦 = 𝑚 𝑥 + 𝑏 with the known slope 𝑚
+𝑡𝑎𝑛 𝑡𝑎𝑛
+at the point (𝑥 , 𝑦 ), we should find b.
+0 0
+As we know that the line goes through (𝑥 ,𝑦 ),
+0 0
+then 𝑦 = 𝑚 𝑥 + 𝑏 or 𝑏 = 𝑦 − 𝑚 𝑥 .
+0 𝑡𝑎𝑛 0 0 𝑡𝑎𝑛 0
+Therefore we can write the equation of
+the tangent line at the point (𝑥 ,𝑦 ) as
+0 0
+𝑦 − 𝑦 = 𝑚 (𝑥 − 𝑥 )
+0 𝑡𝑎𝑛 0
+
+Instantaneous velocity
+Function 𝑥 = 𝑥(𝑡) that describes the dependency of the coordinates of a
+material point from time t is called the motion law of the matreial point.
+Suppose that a material point moves along a coordinate line so that its position
+at time t is given by 𝑥 = 𝑥(𝑡). At time moment t the coordinate of the point is
+x(t), but a the nearby time 𝑡 + ∆𝑡, it is 𝑥(𝑡 + ∆𝑡).
+The average velocity in interval [t, ∆𝑡] is defined as the distance from the first
+position to the second position divided by the elapsed time:
+∆𝑥 𝑥 𝑡 + ∆𝑡 − 𝑥(𝑡)
+𝑣 = = .
+𝑎𝑣𝑔
+∆𝑡 ∆𝑡
+For describing the velocity at the time moment t, the instantaneous velocity
+notion is introduced. It is limit of the 𝑣 when ∆𝑡 → 0.
+𝑎𝑣𝑔
+If an objest moves along coordinate line with position function x(t), then its
+instantaneous velocity at time t is
+∆𝑥 𝑥 𝑡 + ∆𝑡 − 𝑥(𝑡)
+𝑣 = lim 𝑣 = lim = lim
+𝑎𝑣𝑔
+∆𝑡→0 ∆𝑡→0 ∆𝑡 ∆𝑡→0 ∆𝑡
+
+Definition of the derivative
+Velocity is only one of many rates of change. Other rates of chage that could
+interest us are density for a wire (the rate of change of mass in respect to
+distace), marginal revenue (the rate of change of revenue with respect to the
+number of items produced), current (the rate of change of electrical charge with
+respect to time) etc.
+In each case, we must distinguish between an average rate of change on an
+interval and an instantaneous rate of change at a point.
+We have seen that slope of the tangent line and instantaneous velocity are
+manifestations of the same basic idea.
+Rate of growth of an organism (biology), marginal profit (economics), density
+of a wire (physics, and dissolution rates (chemistry) are other version of the
+same concept.
+Good mathematical sense suggest that we study concept independently of these
+specialized vocabularies and diverse applications. We choose the neutral name
+derivative. Add it to function and limit as one of the key words in calculus.
+
+Definition of the derivative
+The derivative of a function f is another function f’ (read «f prime») whose
+value at any numver x is
+𝑓 𝑥 + ∆𝑥 − 𝑓(𝑥 )
+0 0
+𝑓
+′
+𝑥 = lim .
+∆𝑥→0 ∆𝑥
+If this limit does exist, we say that f is differentiable at x.
+Finding derivative is called differentiation.
+Thus, the derivative of a function f is limit of the ratio between change in
+function and change in argument when change in argument approaches 0.
+We can use also notation
+𝑓 𝑥 − 𝑓(𝑥 )
+0
+𝑓
+′
+𝑥 = lim
+0
+𝑥→𝑥 𝑥 − 𝑥
+0 0
+
+Definition of the derivative
+The derivative of the function 𝑓 𝑥 = 𝑥 3 at a point 7 can be given as
+3 3 3 3
+(7 + ∆𝑥) −7 𝑥 − 7
+𝑓
+′
+7 = lim 𝑜𝑟 𝑓
+′
+7 = lim
+∆𝑥→0 ∆𝑥 𝑥→7 𝑥 − 7
+There are several denotions for the derivative:
+𝑑𝑦 𝑑𝑓
+𝑓
+′
+, 𝑦
+′
+, 𝐷𝑓, ,
+𝑑𝑥 𝑑𝑥
+Example
+2
+If 𝑓 𝑥 = 5𝑥 − 2, 𝑥 &gt; , find f’(x).
+5
+Exercise
+Find the derivate of the function 𝑦 = 𝑥 2 + 2𝑥 at a point 5.
+
+Derivative and continuous functions
+If a curve has a tangent line at a poit, then that curve cannot take a jump or
+wiggle too bad at the poit, that is, it is continuous at that point.
+Theorem 5.5. If f’(x) exists, then f is continuous at x.
+The converse of this theorem is false. If a function f is continuous at x, it does
+not follow that f has a derivate at x.
+It is easy seen by considering f(x)=|x| at the point 0. This function is certainly
+continuous at zero. However, it oes not have derivative there.
+but
+
+Rules of finding derivatives
+Theorem 5.6. If f(x) and g(x) are differentiable functions, then
+′
+1. 𝑘𝑓 𝑥 = 𝑘𝑓
+′
+𝑥 , 𝑘 ∈ ℝ − 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡 Constant multiple rule
+2. 𝑓 𝑥 + 𝑔 𝑥 ′ = 𝑓
+′
+𝑥 + 𝑔
+′
+𝑥 Sum rule
+3. 𝑓 𝑥 − 𝑔 𝑥 ′ = 𝑓
+′
+𝑥 − 𝑔
+′
+𝑥 Difference rule
+′
+4. 𝑓 𝑥 𝑔 𝑥 = 𝑓 ′ 𝑥 𝑔 𝑥 + 𝑓 𝑥 𝑔 ′ 𝑥 Product rule
+′
+′
+𝑓 𝑥 𝑓 𝑥 𝑔 𝑥 −𝑓 𝑥 𝑔′(𝑥) Quotient rule
+5. = , 𝑔(𝑥) ≠ 0
+𝑔 𝑥 𝑔2(𝑥)
+Let’s prove 2. rule
+We can divide, because separate limits exist:
+
+Derivatives of the elementary functions
+Theorem 5.7. The following formulas are valid:
+1. 𝑘
+′
+= 0, 𝑘 ∈ ℝ − 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡 Constant function rule
+2. 𝑥
+𝑛 ′
+= 𝑛𝑥
+𝑛−1
+, 𝑛 ∈ ℝ Power rule
+3. 𝑠𝑖𝑛𝑥
+′
+= 𝑐𝑜𝑠𝑥
+4. 𝑐𝑜𝑠𝑥
+′
+= −𝑠𝑖𝑛𝑥
+1
+5. 𝑡𝑔𝑥
+′
+=
+𝑐𝑜𝑠2𝑥
+1
+6. 𝑐𝑡𝑔𝑥
+′
+= −
+𝑠𝑖𝑛2𝑥
+7. 𝑎
+𝑥
+′ = 𝑎
+𝑥
+𝑙𝑛𝑎, 𝑎 &gt; 0
+8. (𝑒
+𝑥
+)′ = 𝑒
+𝑥
+1
+9. (log 𝑥)′ = , 𝑎 &gt; 0, 𝑎 ≠ 1
+𝑎
+𝑥𝑙𝑛𝑎
+1
+10. 𝑙𝑛𝑥
+′
+=
+𝑥
+1
+11. 𝑎𝑟𝑐𝑠𝑖𝑛𝑥
+′
+=
+1−𝑥2
+1
+12. 𝑎𝑟𝑐𝑐𝑜𝑠𝑥
+′
+= −
+𝑒𝑥
+1−𝑥2
+𝑙𝑛𝑥 = log 𝑥
+1 𝑒
+13. 𝑎𝑟𝑐𝑡𝑔𝑥
+′
+= e - &quot;Euler's number&quot; is a mathematical constant,
+1+𝑥2
+it is irrational number, approximately equal to
+1
+14. 𝑎𝑟𝑐𝑐𝑡𝑔𝑥
+′
+= −
+2,718281828459
+1+𝑥2
+
+Derivatives of the elementary functions
+Some proofs
+
+Derivatives of the elementary functions
+Examples
+Exercises. Please finf f’(x) if:
+
+HOMEWORK 5
+9. Please, find the derivatives by using the definition.
+2𝑥−1
+a) 𝑓(𝑥) =
+𝑥−4
+3
+b) 𝑓(𝑥) =
+𝑥−2
+−7 −3
+Answers: a) , b)
+𝑥−4 2 2(𝑥−2) 𝑥−2
+10. Please, find the derivatives by using rules and formulas.
+a) 𝑓 𝑥 = 3𝑥 −4 + 5 − 2 5 𝑥3 + 𝑙𝑛𝑥 + 5𝑠𝑖𝑛𝑥 − 7 ∗ 9 𝑥
+𝑥
+b) 𝑔 𝑡 = 15𝑡
+4
+− 6𝑡 + 9 ∗ 𝑒
+𝑡
+2
+4𝑥 −7
+c) 𝑕 𝑥 =
+𝑠𝑖𝑛𝑥−𝑐𝑜𝑠𝑥
+Reading: D. Varberg, E. J. Purcell, S. E. Rigdon Calculus. 9th Edition,
+Prentice-Hall, Inc.m, 2014, p.93 – 118.
+Chapter 2. Sections 2.1.-2.4.</full_text>
+	<references/>
+</document>

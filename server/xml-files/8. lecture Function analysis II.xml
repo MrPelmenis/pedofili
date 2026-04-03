@@ -1,0 +1,217 @@
+<document>
+	<file>./pdf-files/8. lecture Function analysis II.pdf</file>
+	<title>8. lecture Function analysis II</title>
+	<date>Unknown</date>
+	<doi_number/>
+	<img_preview_path>./pdf-preview-images/8. lecture Function analysis II.jpeg</img_preview_path>
+	<authors/>
+	<abstract/>
+	<methods/>
+	<full_text>Prof. Inese Bula
+University of Latvia
+Faculty of Physics, Mathematics and Optometry
+Lecture Notes
+«Matemātiskā analīze I»
+CALCULUS I
+Doc. Līga Zariņa
+University of Latvia
+Faculty of Computing
+
+Dr. Līga Zariņa
+Researcher
+University of Latvia
+Laboratory for Perceptual and Cognitive Systems
+at the Faculty of Computing
+Raiņa bulv 19, room 418
+E-mail: liga.zarina@lu.lv - please, write to arrange consultations if needed
+Phone: +371 28622755
+
+LECTURE 8.
+FUNCTION ANALYSIS II
+Concavity
+Local Extrema
+8. Homework
+
+Concavity
+If the tangent line turns steadly in the counterclockwise direction, we say that the
+graph is concave up; if the tangent turns in the clockwise direction, the graph is
+concave down.
+DEFINITION 8.1.
+Let f be differentiable on an open interval I. We say that f (as well as its graph) is
+concave up (convex) on I if f’ is increasing on I, and we say that f is concave
+down on I if f’ is decreasing on I.
+Concave up – the graph is under the tangent line in the considered interval
+Concave down – the graph is over the tangent line in the considered interval
+
+Concavity
+DEFINITION 8.2.
+Let f be continuous at c. We call (c, f(c)) an inflection point on the graph of f if f is
+concave up on one side of c and concave down on the other side.
+
+Concavity
+Let f be differentiable on an open interval I
+Concave up – for any two points of the interval the graph that connects these two
+points is over chord that connect these points
+Concave down – for any two points of the interval the graph that connects these
+two points is under chord that connect these points
+
+Concavity
+THEOREM 8.3.
+(Concavity theorem)
+Let f be twice differentiable on an open interval I.
+1) If f’’(x) &lt; 0 for all x in I, then f is concave up on I.
+2) If f’’(x) &gt; 0 for all x in I, then f is concave down on I.
+Points where f’’(x) = 0 or where f’’(x) does not exist are the candidates for
+points of inflection. The conclusion is made according the change of signs of
+the f’’(x).
+
+Concavity
+Example
+1
+𝑦 = 3𝑥2 −
+𝑥2
+𝑥4 − 1
+𝑦′′ = 6
+𝑥4
+Critical points are -1, 0 and 1.
+Detect the signs of y’’.
+Function is
+concave down on (-∞;-1) and (1; +∞)
+concave up on (-1;0) and (0;1)
+The points of inflection are (-1, 2) and (1, 2).
+The point 0 does not belong to Dom(y) and also the change of signd does not indicate 0 as
+point of inflection.
+
+Concavity
+Example
+𝑦 = (𝑥 + 2)3 𝑥
+Please find the points of inflection!
+4(𝑥 − 1)
+𝑦′′ =
+3
+9 𝑥5
+Critical points are 0 and 1.
+Detect the signs of y’’.
+Both critica points (0, 0) and (0, 3) are points of inflection.
+The point 0 belongs to Dom(y), but at this point does not exist y’’.
+Function is
+concave down on (-∞;-1) and (1; +∞)
+concave up on (0;1)
+
+Concavity
+Exercises
+Please find the points of inflection and concavity intervals!
+𝑥2
+𝑎) 𝑦 =
+(𝑥 − 1)2
+𝑏) 𝑦 = ln(𝑥2 + 2𝑥 − 3)
+
+Local Extrema
+The maximum and minimum value on a given interval are reffered as global
+extreme values (global maximum value and global minimum value).
+DEFINITION 8.6. (Monotonicity theorem)
+Let S, the domain of f, contain the point c. We say that
+1) f(c) is a local maximum value of f if there ia an interval (a, b) containing c
+such that f(c) is the maximum value of f on (a, b) ∩ S.
+2) f(c) is a local minimum value of f if there ia an interval (a, b) containing c
+such that f(c) is the minimum value of f on (a, b) ∩ S.
+3) f(c) is a local extreme value of f if it is either a local minimum or a local
+maximum value.
+Any global extreme value is also a local extreme value.
+
+Local Extrema
+Where do local extreme values occur?
+The candidates for points where local extreme may occure are critical points:
+• End points
+• Stationary points (the derivative = 0)
+• Singular points (the derivative does not exist)
+We are not claiming that there must be a local extremum at every critical point.
+Example
+𝑦 = 𝑥 3 , 𝑦 ′ = 3𝑥 2, the only critical point is 0, but here the function does not
+reach local minimum or local maximum value.
+However, if the derivative is positive on one side of the critical point and
+negative on the other (and if the function is continuous), then we have alocal
+extremum.
+
+Local Extrema
+THEOREM 8.7.
+(First derivative test)
+Let f be continuous on an open interval (a, b) that contains a critical point c.
+1) If f’(x) &gt; 0 for all x in (a, c) and f’(x) &lt; 0 for all x in (c, b), then f(c) is a
+local maximum value of f.
+2) If f’(x) &lt; 0 for all x in (a, c) and f’(x) &gt; 0 for all x in (c, b), then f(c) is a
+local minimum value of f.
+3) If f’(x) has the same sign on both sides of c, then f(c) is not a local extreme
+value of f.
+
+Local Extrema
+Proof of 1).
+□
+Since f’(x) &gt; 0 for all x in (a, c), f is increasing on (a, c] by the Monotonicity
+theorem.
+And again, since f’(x) &lt; 0 for all x in (a, c), f is decreasing on [c, b) by the
+Monotonicity theorem.
+Thus, f(x) &lt; f(c) for all x in (a, b), except of course at x = c.
+We conclude that f(c) is a local maximum.
+■
+
+Local Extrema
+Exercise
+4𝑥 + 5
+𝑓 𝑥 =
+1 − 𝑥2
+Critical points are -2, -1/2, -1 and 1.
+At -1 and 1 there is no extrema values, because the derivative values do not
+change signs. Also these values do not belong to Dom(f(x)).
+According the change of signs at the point -2 the function has local maximum
+value 1 and at the -1/2 the function has local minimum value 4.
+We see that these are local extrema values, because the maximum value is
+smaller then minimum value.
+
+Local Extrema
+Exercise
+3
+𝑥 + 4
+𝑓 𝑥 =
+𝑥2
+Please find the extrema values!
+3
+𝑥 − 8
+′
+𝑦 =
+𝑥3
+Critical points are 0 and 2.
+Hav to detect signd for first derivative.
+At 0 the function is not defined, thus it cannot have extrema value there, even if
+the derivative changes the sign.
+The point (2, 3) in accordance with the change of signs is a local minimum
+point.
+It is local, because, for example) f(-2) = -1 &lt; 3.t
+
+Concavity
+Exercises
+Please find the extreme values! Please detect if any of them is the global extreme value!
+𝑙𝑛𝑥
+𝑎) 𝑦 =
+𝑥
+𝑥𝑛
+𝑏) 𝑦 = , 𝑛 = 1, 2, … ,
+1 + 𝑥2
+
+HOMEWORK 8
+𝑥
+15. Where is 𝑦 = concave up and where it is concave down? Please,
+(𝑥−2)2
+detect th points of inflection.
+Answer:
+point of inflection (-4; -1/9)
+oncave down on (-4;2) and (2; +∞)
+concave up on (- ∞;-4)
+16. The the number a in the sum with the square of the number b gives 48.
+Please, find such a and b, so that their multiplication is greatest.
+Answer: a=32, b=4
+Reading: D. Varberg, E. J. Purcell, S. E. Rigdon Calculus. 9th Edition,
+Prentice-Hall, Inc.m, 2014, p. 155– 166.
+Chapter 3. Sections 3.2., 3.3.</full_text>
+	<references/>
+</document>

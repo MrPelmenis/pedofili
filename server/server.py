@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from pdfToImage import generate_preview
 from parser import extract_paper_data
 from doisFromPdf import extract_doi_metadata
-from xml_builder import build_xml, save_xml, upload_xml
+from xml_builder import build_xml, save_xml, upload_xml, is_bad_parse, extract_fallback_text
 
 import json
 
@@ -54,20 +54,33 @@ def upload():
     print(f"  Saved PDF: {filename}")
 
     image_path  = generate_preview(save_path, PREVIEW_DIR)
-    doi_info    = extract_doi_metadata(save_path)   
+    doi_info    = None 
     grobid_info = extract_paper_data(save_path)
 
-    xml_string = build_xml(
-        doi_info    = doi_info,
-        grobid_info = grobid_info,
-        image_path  = image_path,
-    )
+    if is_bad_parse(grobid_info):
+        fallback_text = extract_fallback_text(save_path)
+        grobid_info = {
+            "file":      f"./pdf-files/{filename}",
+            "full_text": fallback_text,
+            "title":     os.path.splitext(filename)[0],  
+            "authors":   [],
+            "abstract":  "",
+            "methods":   [],
+            "references": [],
+        }
+        doi_info = None  
+    else: 
+         doi_info = extract_doi_metadata(save_path)   
+
+    xml_string = build_xml(doi_info, grobid_info, image_path)
+
     final_xml_name = f"{XML_OUT_PATH}/{os.path.splitext(filename)[0]}.xml"
     save_xml(xml_string, final_xml_name)
 
     upload_result = upload_xml(xml_string, CP_URL, CP_USER, CP_PASS)
+
     if upload_result["success"]:
-        print(f"  XML uploaded to ContextPrime OK")
+        print(f"gatavais XML uploaded")
     else:
         print(f"  XML upload failed: {upload_result['error']}")
  
@@ -91,7 +104,7 @@ def clean_filename(file_path):
 
 
 def do_search(query):
-    fullQ = f"<query>{query}</query><relevance>decending</relevance>"
+    fullQ = f"<query>{query}*</query><relevance>decending</relevance>"
     resp = requests.post(
         CP_URL + "/api/databases/pdfs/search/json",
         data=fullQ,
@@ -129,6 +142,7 @@ def do_search(query):
             "title":    doc.get("title"),
             "file":     filename,
             "date":     doc.get("date"),
+            "full_text": doc.get("full_text"),
             "authors":  authors,
             "abstract": doc.get("abstract"),
             "preview":  f"/previews/{preview_name}" if preview_exists else None,

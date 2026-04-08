@@ -3,11 +3,16 @@ import requests
 from flask import Flask, request, jsonify, send_from_directory, make_response
 from flask_cors import CORS
 from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor
+background_executor = ThreadPoolExecutor(max_workers=10)
 
 from pdfToImage import generate_preview
 from parser import extract_paper_data
 from doisFromPdf import extract_doi_metadata
 from xml_builder import build_xml, save_xml, upload_xml, is_bad_parse, extract_fallback_text
+
+import sys
+from contextlib import contextmanager
 
 import json
 
@@ -27,6 +32,40 @@ XML_OUT_PATH = "./xml-files"
 os.makedirs(PDF_DIR,      exist_ok=True)
 os.makedirs(PREVIEW_DIR,  exist_ok=True)
 os.makedirs(os.path.dirname(XML_OUT_PATH) if os.path.dirname(XML_OUT_PATH) else ".", exist_ok=True)
+
+def process_file_background(filename, save_path):
+    try:
+        image_path  = generate_preview(save_path, PREVIEW_DIR)
+        grobid_info = extract_paper_data(save_path)
+
+        if is_bad_parse(grobid_info):
+            fallback_text = extract_fallback_text(save_path)
+            grobid_info = {
+                "file":      f"./pdf-files/{filename}",
+                "full_text": fallback_text,
+                "title":     os.path.splitext(filename)[0],
+                "authors":   [],
+                "abstract":  "",
+                "methods":   [],
+                "references": [],
+            }
+            doi_info = None
+        else:
+            doi_info = extract_doi_metadata(save_path)
+
+        xml_string = build_xml(doi_info, grobid_info, image_path)
+        final_xml_name = f"{XML_OUT_PATH}/{os.path.splitext(filename)[0]}.xml"
+        save_xml(xml_string, final_xml_name)
+
+        upload_result = upload_xml(xml_string, CP_URL, CP_USER, CP_PASS)
+
+        if upload_result["success"]:
+            print(f"SUCCESS: [{filename[:10]}] XML uploaded.")
+        else:
+            print(f"ERROR: [{filename}] Upload failed: {upload_result['error']}")
+
+    except Exception as e:
+        print(f"FATAL: [{filename}] {str(e)}")
 
 
 @app.route("/upload", methods=["POST"])
@@ -51,47 +90,13 @@ def upload():
 
     save_path = os.path.join(PDF_DIR, filename)
     file.save(save_path)
-    print(f"  Saved PDF: {filename}")
 
-    image_path  = generate_preview(save_path, PREVIEW_DIR)
-    doi_info    = None 
-    grobid_info = extract_paper_data(save_path)
+    background_executor.submit(process_file_background, filename, save_path)
 
-    if is_bad_parse(grobid_info):
-        fallback_text = extract_fallback_text(save_path)
-        grobid_info = {
-            "file":      f"./pdf-files/{filename}",
-            "full_text": fallback_text,
-            "title":     os.path.splitext(filename)[0],  
-            "authors":   [],
-            "abstract":  "",
-            "methods":   [],
-            "references": [],
-        }
-        doi_info = None  
-    else: 
-         doi_info = extract_doi_metadata(save_path)   
-
-    xml_string = build_xml(doi_info, grobid_info, image_path)
-
-    final_xml_name = f"{XML_OUT_PATH}/{os.path.splitext(filename)[0]}.xml"
-    save_xml(xml_string, final_xml_name)
-
-    upload_result = upload_xml(xml_string, CP_URL, CP_USER, CP_PASS)
-
-    if upload_result["success"]:
-        print(f"gatavais XML uploaded")
-    else:
-        print(f"  XML upload failed: {upload_result['error']}")
- 
     return jsonify({
-        "message":       "Upload successful",
-        "filename":      filename,
-        "doi_found":     doi_info is not None,
-        "xml_saved":     XML_OUT_PATH,
-        "cp_upload":     upload_result,
+        "message": "Upload successful. Processing in background.",
+        "filename": filename
     }), 200
-
 
 def get_preview_filename(file_path):
     basename = os.path.basename(file_path)
@@ -179,4 +184,4 @@ def preview(filename):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3002, debug=True)
+    app.run(host="0.0.0.0", port=3002, debug=True, threaded=True)

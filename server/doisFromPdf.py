@@ -3,6 +3,8 @@ import pdf2doi
 
 CROSSREF_URL = "https://api.crossref.org/works/{}"
 HEADERS = {"User-Agent": "pdfili/1.0 (normundspeld@gmail.com)"}
+pdf2doi.config.set('verbose', False)
+
 
 
 def get_crossref_metadata(doi: str) -> dict | None:
